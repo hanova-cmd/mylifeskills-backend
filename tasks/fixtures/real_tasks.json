@@ -1,0 +1,114 @@
+[
+  {
+    "model": "game.dailytask",
+    "fields": {
+      "title": "Дыхание 4-7-8 для снятия стресса",
+      "description": "Вдох на 4 счета, задержка на 7, выдох на 8. Повтори 5 раз. Научно доказано снижает кортизол.",
+      "category": "mindfulness",
+      "difficulty": "easy",
+      "points_reward": 15,
+      "duration_minutes": 5,
+      "scientific_basis": "Метод 4-7-8 активирует парасимпатическую нервную систему, снижая сердечный ритм и кровяное давление.",
+      "tags": ["stress_relief", "anxiety", "quick"],
+      "frequency_weight": 2
+    }
+  },
+  {
+    "model": "game.dailytask", 
+    "fields": {
+      "title": "Техника Pomodoro для фокуса",
+      "description": "25 минут работы, 5 минут перерыва. После 4 циклов - длинный перерыв 15-20 минут.",
+      "category": "learning",
+      "difficulty": "medium", 
+      "points_reward": 25,
+      "duration_minutes": 25,
+      "scientific_basis": "Короткие перерывы предотвращают выгорание и поддерживают высокий уровень концентрации.",
+      "tags": ["focus", "productivity", "adhd"],
+      "frequency_weight": 3
+    }
+  },
+  {
+    "model": "game.dailytask",
+    "fields": {
+      "title": "Вечерний цифровой детокс",
+      "description": "За 1 час до сна отложи все гаджеты. Почитай книгу или послушай спокойную музыку.",
+      "category": "routine",
+      "difficulty": "medium",
+      "points_reward": 20,
+      "duration_minutes": 60,
+      "scientific_basis": "Синий свет от экранов подавляет выработку мелатонина, ухудшая качество сна.",
+      "tags": ["sleep", "digital_detox", "evening"],
+      "frequency_weight": 2
+    }
+  },
+  {
+    "model": "game.dailytask",
+    "fields": {
+      "title": "Осознанная прогулка на природе",
+      "description": "20-минутная прогулка в парке. Обращай внимание на звуки, запахи, ощущения под ногами.",
+      "category": "physical", 
+      "difficulty": "easy",
+      "points_reward": 30,
+      "duration_minutes": 20,
+      "scientific_basis": "Прогулки на природе снижают активность префронтальной коры, отвечающей за руминацию.",
+      "tags": ["nature", "mindfulness", "stress_relief"],
+      "frequency_weight": 3
+    }
+  },
+  {
+    "model": "game.dailytask",
+    "fields": {
+      "title": "Практика благодарности",
+      "description": "Запиши 3 вещи, за которые ты благодарен сегодня. Можешь вести дневник благодарностей.",
+      "category": "self_care",
+      "difficulty": "easy", 
+      "points_reward": 15,
+      "duration_minutes": 5,
+      "scientific_basis": "Регулярная практика благодарности повышает уровень дофамина и серотонина.",
+      "tags": ["gratitude", "positive_thinking", "journaling"],
+      "frequency_weight": 2
+    }
+  },
+  {
+    "model": "game.dailytask",
+    "fields": {
+      "title": "Растяжка для снятия напряжения",
+      "description": "10-минутный комплекс растяжки шеи, плеч и спины. Особенно полезно при сидячей работе.",
+      "category": "physical",
+      "difficulty": "easy",
+      "points_reward": 15, 
+      "duration_minutes": 10,
+      "scientific_basis": "Растяжка снижает мышечное напряжение и улучшает кровообращение, уменьшая физические проявления стресса.",
+      "tags": ["tension_relief", "office_workers", "quick"],
+      "frequency_weight": 3
+    }
+  },
+  {
+    "model": "game.dailytask",
+    "fields": {
+      "title": "Техника '5-4-3-2-1' для заземления",
+      "description": "Назови: 5 вещей которые видишь, 4 которые ощущаешь, 3 которые слышишь, 2 которые нюхаешь, 1 которую пробуешь.",
+      "category": "mindfulness",
+      "difficulty": "easy",
+      "points_reward": 20,
+      "duration_minutes": 3,
+      "scientific_basis": "Техника переключает внимание с тревожных мыслей на физические ощущения, активируя сенсорные центры мозга.",
+      "tags": ["anxiety", "grounding", "panic_attack"],
+      "frequency_weight": 2
+    }
+  },
+  {
+    "model": "game.dailytask",
+    "fields": {
+      "title": "Приготовление здорового ужина",
+      "description": "Приготовь ужин с содержанием триптофана (индейка, бананы, орехи) для улучшения сна.",
+      "category": "self_care", 
+      "difficulty": "medium",
+      "points_reward": 25,
+      "duration_minutes": 30,
+      "scientific_basis": "Триптофан является прекурсором мелатонина и серотонина, улучшающих сон и настроение.",
+      "tags": ["nutrition", "sleep", "cooking"],
+      "frequency_weight": 2
+    }
+  }
+]
