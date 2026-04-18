@@ -17,6 +17,10 @@ services:
           name: mylifeskills-db
           property: connectionString
 
+    buildFilter:
+      runtime: python3.12
+      
+
 databases:
   - name: mylifeskills-db
     databaseName: mylifeskills
