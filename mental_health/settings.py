@@ -152,3 +152,6 @@ SIMPLE_JWT = {
 
 if DEBUG:
     CORS_ALLOW_ALL_ORIGINS = True
+
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
