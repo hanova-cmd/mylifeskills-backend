@@ -59,8 +59,6 @@ class UserStats(models.Model):
     total_xp = models.IntegerField(default=0)
     lessons_completed = models.IntegerField(default=0)
 
-    points = models.IntegerField(default=0, null=True, blank=True)
-
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
