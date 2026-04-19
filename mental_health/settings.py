@@ -14,11 +14,10 @@ ALLOWED_HOSTS = ['*']
 
 DATABASES = {
     'default': dj_database_url.config(
-        default=os.environ.get('https://mylifeskills-api.onrender.com'),
+        default=os.environ.get('DATABASE_URL'), 
         conn_max_age=600
     )
 }
-
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
