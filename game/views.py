@@ -125,20 +125,20 @@ class LessonViewSet(viewsets.ReadOnlyModelViewSet):
             progress.best_score = score_percentage
         
         passed = score_percentage >= passing_score
-        points_earned = 0
+        coins_earned = 0
         
         if passed and not progress.completed:
             progress.completed = True
             progress.completed_at = timezone.now()
-            progress.points_earned = lesson.points
-            points_earned = lesson.points
+            progress.coins_earned = lesson.coins
+            coins_earned = lesson.coins
             progress.progress = 100
             
             try:
                 stats = user.userstats
-                stats.total_xp += lesson.points
+                stats.total_xp += lesson.coins
                 stats.lessons_completed += 1
-                stats.coins += lesson.points
+                stats.coins += lesson.coins
                 stats.save()
             except AttributeError:
                 pass
@@ -151,7 +151,7 @@ class LessonViewSet(viewsets.ReadOnlyModelViewSet):
             'score': score_percentage,
             'correct_answers': correct_count,
             'total_questions': total_questions,
-            'points_earned': points_earned,
+            'coins_earned': coins_earned,
             'best_score': progress.best_score,
             'attempts': progress.attempts,
             'message': f'You scored {score_percentage}%! ' + ('You passed! 🎉' if passed else 'Try again! 💪')
