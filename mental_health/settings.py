@@ -12,11 +12,18 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 
+#DATABASES = {
+#    'default': dj_database_url.config(
+#        default=os.environ.get('https://mylifeskills-api.onrender.com'),
+#        conn_max_age=600
+#    )
+#}
+
 DATABASES = {
-    'default': dj_database_url.config(
-        default=os.environ.get('https://mylifeskills-api.onrender.com'),
-        conn_max_age=600
-    )
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
 }
 
 MEDIA_URL = '/media/'
