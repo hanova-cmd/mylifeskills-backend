@@ -12,7 +12,7 @@ def create_admin(apps, schema_editor):
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('accounts', 'ПОСЛЕДНЯЯ_МИГРАЦИЯ'),
+        ('accounts', '0004_userstats_points_alter_userstats_user'),
     ]
 
     operations = [
