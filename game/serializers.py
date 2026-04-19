@@ -27,7 +27,7 @@ class LessonSerializer(serializers.ModelSerializer):
         model = Lesson
         fields = [
             'id', 'title', 'description', 'category', 'category_name', 'category_emoji',
-            'lesson_type', 'difficulty', 'age_min', 'age_max', 'duration', 'points',
+            'lesson_type', 'difficulty', 'age_min', 'age_max', 'duration', 'coins',
             'theory_content', 'interactive_content', 'quiz_questions', 'image', 'video_url',
             'user_progress', 'completed', 'order', 'is_active', 'created_at'
         ]
@@ -45,7 +45,7 @@ class LessonSerializer(serializers.ModelSerializer):
                     return {
                         'progress': progress.progress,
                         'completed': progress.completed,
-                        'points_earned': progress.points_earned,
+                        'coins_earned': progress.coins_earned,
                         'attempts': progress.attempts,
                         'best_score': progress.best_score,
                         'started_at': progress.started_at,
@@ -73,7 +73,7 @@ class UserLessonProgressSerializer(serializers.ModelSerializer):
     class Meta:
         model = LessonProgress
         fields = [
-            'id', 'lesson', 'lesson_title', 'category_name', 'lesson_points',
+            'id', 'lesson', 'lesson_title', 'category_name', 'lesson_coins',
             'completed', 'points_earned', 'progress', 'attempts', 'best_score',
             'started_at', 'completed_at'
         ]
@@ -88,7 +88,7 @@ class DailyTaskSerializer(serializers.ModelSerializer):
         model = DailyTask
         fields = [
             'id', 'user', 'lesson', 'lesson_title', 'category_name',
-            'task_type', 'title', 'description', 'points', 'duration', 
+            'task_type', 'title', 'description', 'coins', 'duration', 
             'completed', 'assigned_date', 'completed_at', 'category'
         ]
         read_only_fields = ['user', 'assigned_date', 'completed_at', 'created_at']
