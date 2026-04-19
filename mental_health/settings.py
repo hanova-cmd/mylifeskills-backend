@@ -157,7 +157,6 @@ if DEBUG:
 import sys
 if 'migrate' in sys.argv or 'runserver' in sys.argv:
     from django.contrib.auth import get_user_model
-    User = get_user_model()
     if not User.objects.filter(username='admin').exists():
         User.objects.create_superuser('admin', 'admin@example.com', 'admin1230')
         print("✅ Superuser 'admin' created with password 'admin1230'")
