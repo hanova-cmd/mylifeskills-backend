@@ -23,7 +23,7 @@ class Category(models.Model):
                     'lesson_type': 'theory',
                     'difficulty': 'beginner',
                     'duration': 10,
-                    'points': 10,
+                    'coins': 10,
                     'order': 1,
                     'is_active': True,
                 }
@@ -43,7 +43,7 @@ class Category(models.Model):
                     title=f"Learn {self.name}",
                     task_type='lesson',
                     description=f'Explore {self.name} category',
-                    points=15,
+                    coins=15,
                     category=self,
                     lesson=lesson,
                     completed=False,
@@ -80,7 +80,7 @@ class Lesson(models.Model):
     age_min = models.IntegerField(default=10)
     age_max = models.IntegerField(default=25)
     duration = models.IntegerField(help_text="Duration in minutes", default=15)
-    points = models.IntegerField(default=30)
+    coins = models.IntegerField(default=30)
     
     theory_content = models.TextField(blank=True)
     interactive_content = models.JSONField(default=dict, blank=True)
@@ -120,7 +120,7 @@ class LessonProgress(models.Model):
     lesson = models.ForeignKey(Lesson, on_delete=models.CASCADE, related_name='user_progress')
     progress = models.IntegerField(default=0)  
     completed = models.BooleanField(default=False)
-    points_earned = models.IntegerField(default=0)
+    coins_earned = models.IntegerField(default=0)
     attempts = models.IntegerField(default=0)
     best_score = models.IntegerField(default=0)
     started_at = models.DateTimeField(auto_now_add=True)
@@ -145,7 +145,7 @@ class DailyTask(models.Model):
     task_type = models.CharField(max_length=20, choices=TASK_TYPES)
     title = models.CharField(max_length=200)
     description = models.TextField(blank=True)
-    points = models.IntegerField(default=10)
+    coins = models.IntegerField(default=10)
     completed = models.BooleanField(default=False)
     
     category = models.ForeignKey(Category, on_delete=models.SET_NULL, null=True, blank=True, related_name='daily_tasks')

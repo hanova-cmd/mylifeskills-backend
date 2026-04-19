@@ -20,9 +20,6 @@ class CustomTokenObtainPairView(TokenObtainPairView):
 
 
 class UserRegistrationView(generics.CreateAPIView):
-    """
-    ПРОСТАЯ и РАБОЧАЯ регистрация
-    """
     queryset = User.objects.all()
     serializer_class = UserRegistrationSerializer
     permission_classes = [AllowAny]
@@ -42,7 +39,7 @@ class UserRegistrationView(generics.CreateAPIView):
         
         try:
             user = serializer.save()
-            print(f"✅ User registered: {user.username} (ID: {user.id})")
+            print(f" User registered: {user.username} (ID: {user.id})")
             
             refresh = RefreshToken.for_user(user)
             
@@ -51,7 +48,7 @@ class UserRegistrationView(generics.CreateAPIView):
                 "user": UserSerializer(user).data,
                 "access": str(refresh.access_token),
                 "refresh": str(refresh),
-                "message": "Регистрация успешна"
+                "message": "Registration Succeeded"
             }, status=status.HTTP_201_CREATED)
             
         except Exception as e:

@@ -76,13 +76,13 @@ class LessonViewSet(viewsets.ReadOnlyModelViewSet):
             progress.completed = True
             progress.completed_at = timezone.now()
             progress.progress = 100
-            progress.points_earned = lesson.points
+            progress.coins_earned = lesson.coins
             progress.best_score = max(progress.best_score or 0, score)
             progress.save()
 
             try:
                 stats = request.user.userstats
-                stats.total_xp += lesson.points
+                stats.total_xp += lesson.coins
                 stats.lessons_completed += 1
                 stats.save()
             except AttributeError:
@@ -90,7 +90,7 @@ class LessonViewSet(viewsets.ReadOnlyModelViewSet):
 
         return Response({
             "success": True,
-            "points_earned": lesson.points,
+            "coins_earned": lesson.coins,
             "message": "Lesson completed successfully!"
         })
 
@@ -195,7 +195,7 @@ class DailyTaskViewSet(viewsets.ModelViewSet):
 
         return Response({
             "success": True,
-            "points_earned": task.points,
+            "coins_earned": task.coins,
             "message": "Task completed!"
         })
 
@@ -221,12 +221,12 @@ class UserStatsView(APIView):
         
         try:
             stats = user.userstats
-            points = stats.coins
+            coins = stats.coins
             level = stats.level
             streak = stats.daily_streak
             lessons_completed = stats.lessons_completed
         except AttributeError:
-            points = 0
+            coins = 0
             level = 1
             streak = 0
             lessons_completed = 0
@@ -234,7 +234,7 @@ class UserStatsView(APIView):
         total_lessons = Lesson.objects.filter(is_active=True).count()
         
         return Response({
-            "points": points,
+            "coins": coins,
             "level": level,
             "streak": streak,
             "lessons_completed": lessons_completed,
