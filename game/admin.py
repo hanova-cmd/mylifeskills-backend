@@ -148,7 +148,7 @@ class DailyTaskAdmin(admin.ModelAdmin):
 
 @admin.register(LessonProgress)
 class LessonProgressAdmin(admin.ModelAdmin):
-    list_display = ['user', 'lesson', 'completed', 'progress', 'points_earned', 'attempts', 'best_score']
+    list_display = ['user', 'lesson', 'completed', 'progress', 'coins_earned', 'attempts', 'best_score']
     list_filter = ['completed', 'started_at']
     search_fields = ['user__username', 'lesson__title']
     readonly_fields = ['user', 'lesson', 'started_at', 'completed_at']
