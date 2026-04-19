@@ -74,7 +74,7 @@ class CategoryAdmin(admin.ModelAdmin):
 
 @admin.register(Lesson)
 class LessonAdmin(admin.ModelAdmin):
-    list_display = ['title', 'category', 'lesson_type', 'difficulty', 'points', 'order', 'is_active']
+    list_display = ['title', 'category', 'lesson_type', 'difficulty', 'coins', 'order', 'is_active']
     list_filter = ['category', 'lesson_type', 'difficulty', 'is_active']
     search_fields = ['title', 'description']
     list_editable = ['order', 'is_active']
@@ -84,7 +84,7 @@ class LessonAdmin(admin.ModelAdmin):
             'fields': ('title', 'description', 'category', 'lesson_type', 'difficulty')
         }),
         ('Settings', {
-            'fields': ('duration', 'points', 'order', 'is_active', 'age_min', 'age_max')
+            'fields': ('duration', 'coins', 'order', 'is_active', 'age_min', 'age_max')
         }),
         ('Theory Content with Images', {
             'fields': ('theory_content', 'theory_images', 'image', 'video_url'),
@@ -125,7 +125,7 @@ class DailyTaskAdmin(admin.ModelAdmin):
     list_filter = ['category', 'task_type', 'completed', 'assigned_date']
     search_fields = ['title', 'user__username', 'category__name', 'lesson__title']
     
-    fields = ['user', 'task_type', 'title', 'description', 'points', 'completed', 
+    fields = ['user', 'task_type', 'title', 'description', 'coins', 'completed', 
               'category', 'lesson', 'assigned_date']
     
     def save_model(self, request, obj, form, change):
