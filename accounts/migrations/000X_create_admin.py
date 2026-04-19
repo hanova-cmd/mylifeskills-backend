@@ -1,7 +1,7 @@
 from django.db import migrations
 
 def create_admin(apps, schema_editor):
-    User = apps.get_model('auth', 'User')
+    User = apps.get_model('accounts', 'User')
     if not User.objects.filter(username='admin').exists():
         User.objects.create_superuser(
             username='admin',
