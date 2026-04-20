@@ -31,9 +31,10 @@ class ShopItemAdmin(admin.ModelAdmin):
         }),
         
         ('Изображение и внешний вид', {
-            'fields': ('image', 'image_preview', 'emoji', 'primary_color', 'secondary_color', 
-                      'preview_color', 'position_x', 'position_y', 'width', 'height', 'scale')
-        }),
+            'fields': ('image', 'external_image_url', 'emoji', 'primary_color', 
+                      'secondary_color', 'preview_color', 'position_x', 'position_y', 
+                      'width', 'height', 'scale')
+        }),              
         
         ('Совместимость', {
             'fields': ('compatible_with', 'exclusive_with')

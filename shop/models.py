@@ -111,6 +111,10 @@ class ShopItem(models.Model):
                              blank=True, null=True, 
                              verbose_name="Item image")
     
+    external_image_url = models.URLField(max_length=500, blank=True, null=True, 
+                                        verbose_name="External image URL (Google Drive, etc.)",
+                                        help_text="Use this instead of uploading file")
+    
     compatible_with = models.ManyToManyField('self', symmetrical=False, blank=True,
                                            related_name='compatible_items',
                                            help_text="Items this can be combined with")
@@ -145,8 +149,12 @@ class ShopItem(models.Model):
         return f"{self.name} ({self.get_item_type_display()})"
     
     def image_url(self):
+        if self.external_image_url:
+            return self.external_image_url
+        
         if self.image and hasattr(self.image, 'url'):
             return self.image.url
+        
         return None
     
     def get_rarity_color(self):

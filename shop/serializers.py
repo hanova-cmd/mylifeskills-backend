@@ -35,7 +35,10 @@ class ShopItemSerializer(serializers.ModelSerializer):
         )
     
     def get_image_url(self, obj):
-        if obj.image:
+        if obj.external_image_url:
+            return obj.external_image_url
+        
+        if obj.image and obj.image.url:
             request = self.context.get('request')
             if request:
                 return request.build_absolute_uri(obj.image.url)
