@@ -360,6 +360,13 @@ class CheckPurchaseView(APIView):
 class UserAvatarView(APIView):
     permission_classes = [IsAuthenticated]
     
+    def get_item_image_url(self, item, request):
+        if item.external_image_url:
+            return item.external_image_url
+        if item.image and item.image.url:
+            return request.build_absolute_uri(item.image.url)
+        return None
+    
     def get(self, request):
         avatar, created = UserAvatar.objects.get_or_create(user=request.user)
         
@@ -379,7 +386,7 @@ class UserAvatarView(APIView):
                 'item_id': bg_item.id,
                 'name': bg_item.name,
                 'item_type': 'background',
-                'image_url': request.build_absolute_uri(bg_item.image.url) if bg_item.image else None,
+                'image_url': self.get_item_image_url(bg_item, request),
                 'position_x': 0,
                 'position_y': 0,
                 'width': 300,
@@ -407,7 +414,7 @@ class UserAvatarView(APIView):
                 'item_id': skin_item.id,
                 'name': skin_item.name,
                 'item_type': 'skin',
-                'image_url': request.build_absolute_uri(skin_item.image.url) if skin_item.image else None,
+                'image_url': self.get_item_image_url(skin_item, request),
                 'position_x': 0,
                 'position_y': 0,
                 'width': 200,
@@ -433,7 +440,7 @@ class UserAvatarView(APIView):
                 'item_id': body_item.id,
                 'name': body_item.name,
                 'item_type': 'body',
-                'image_url': request.build_absolute_uri(body_item.image.url) if body_item.image else None,
+                'image_url': self.get_item_image_url(body_item, request),
                 'position_x': 0,
                 'position_y': 0,
                 'width': 200,
@@ -472,7 +479,7 @@ class UserAvatarView(APIView):
                 'item_id': item.id,
                 'name': item.name,
                 'item_type': item.item_type,
-                'image_url': request.build_absolute_uri(item.image.url) if item.image else None,
+                'image_url': self.get_item_image_url(item, request),
                 'position_x': position_x,
                 'position_y': position_y,
                 'width': item.width,
@@ -587,6 +594,13 @@ class AvatarCustomizeView(APIView):
 class AvatarPreviewView(APIView):
     permission_classes = [IsAuthenticated]
     
+    def get_item_image_url(self, item, request):
+        if item.external_image_url:
+            return item.external_image_url
+        if item.image and item.image.url:
+            return request.build_absolute_uri(item.image.url)
+        return None
+    
     def get(self, request):
         avatar, created = UserAvatar.objects.get_or_create(user=request.user)
         
@@ -603,7 +617,7 @@ class AvatarPreviewView(APIView):
             bg_item = background_items.first().item
             layers.append({
                 'type': 'background',
-                'image_url': request.build_absolute_uri(bg_item.image.url) if bg_item.image else None,
+                'image_url': self.get_item_image_url(bg_item, request),
                 'color': bg_item.primary_color,
                 'layer': 0,
             })
@@ -619,7 +633,7 @@ class AvatarPreviewView(APIView):
             skin_item = skin_items.first().item
             layers.append({
                 'type': 'skin',
-                'image_url': request.build_absolute_uri(skin_item.image.url) if skin_item.image else None,
+                'image_url': self.get_item_image_url(skin_item, request),
                 'color': skin_item.primary_color,
                 'layer': 1,
             })
@@ -651,7 +665,7 @@ class AvatarPreviewView(APIView):
             layer_data = {
                 'type': 'item',
                 'item_type': item.item_type,
-                'image_url': request.build_absolute_uri(item.image.url) if item.image else None,
+                'image_url': self.get_item_image_url(item, request),
                 'position_x': position_x,
                 'position_y': position_y,
                 'scale': scale,
