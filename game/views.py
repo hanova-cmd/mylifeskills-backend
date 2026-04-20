@@ -126,24 +126,34 @@ class LessonViewSet(viewsets.ReadOnlyModelViewSet):
         
         passed = score_percentage >= passing_score
         coins_earned = 0
+        xp_earned = 0
         
         if passed and not progress.completed:
             progress.completed = True
             progress.completed_at = timezone.now()
             progress.coins_earned = lesson.coins
             coins_earned = lesson.coins
+            xp_earned = lesson.xp_reward if hasattr(lesson, 'xp_reward') else lesson.coins
             progress.progress = 100
             
             try:
                 stats = user.userstats
-                stats.total_xp += lesson.coins
+                stats.total_xp += xp_earned
                 stats.lessons_completed += 1
-                stats.coins += lesson.coins
+                if hasattr(stats, 'coins'):
+                    stats.coins += coins_earned
                 stats.save()
             except AttributeError:
                 pass
         
         progress.save()
+        
+        try:
+            new_coins = user.userstats.coins if hasattr(user.userstats, 'coins') else 0
+            new_xp = user.userstats.total_xp
+        except AttributeError:
+            new_coins = 0
+            new_xp = 0
         
         return Response({
             'success': passed,
@@ -152,6 +162,9 @@ class LessonViewSet(viewsets.ReadOnlyModelViewSet):
             'correct_answers': correct_count,
             'total_questions': total_questions,
             'coins_earned': coins_earned,
+            'xp_earned': xp_earned,
+            'new_coins': new_coins,
+            'new_xp': new_xp,
             'best_score': progress.best_score,
             'attempts': progress.attempts,
             'message': f'You scored {score_percentage}%! ' + ('You passed! 🎉' if passed else 'Try again! 💪')
@@ -189,6 +202,8 @@ class DailyTaskViewSet(viewsets.ModelViewSet):
             try:
                 stats = request.user.userstats
                 stats.daily_streak += 1
+                if hasattr(stats, 'coins'):
+                    stats.coins += task.coins
                 stats.save()
             except AttributeError:
                 pass
@@ -221,15 +236,17 @@ class UserStatsView(APIView):
         
         try:
             stats = user.userstats
-            coins = stats.coins
+            coins = stats.coins if hasattr(stats, 'coins') else 0
             level = stats.level
             streak = stats.daily_streak
             lessons_completed = stats.lessons_completed
+            total_xp = stats.total_xp
         except AttributeError:
             coins = 0
             level = 1
             streak = 0
             lessons_completed = 0
+            total_xp = 0
         
         total_lessons = Lesson.objects.filter(is_active=True).count()
         
@@ -239,6 +256,7 @@ class UserStatsView(APIView):
             "streak": streak,
             "lessons_completed": lessons_completed,
             "total_lessons": total_lessons,
+            "total_xp": total_xp,
             "tasks_completed": DailyTask.objects.filter(user=user, completed=True).count()
         })
 
@@ -250,7 +268,7 @@ class ProfileView(APIView):
         
         try:
             stats = user.userstats
-            coins = stats.total_xp
+            coins = stats.coins if hasattr(stats, 'coins') else 0
             level = stats.level
             streak = stats.daily_streak
             lessons_completed = stats.lessons_completed
@@ -282,7 +300,7 @@ class CurrentUserView(APIView):
         
         try:
             stats = user.userstats
-            coins = stats.total_xp
+            coins = stats.coins if hasattr(stats, 'coins') else 0
             level = stats.level
             streak = stats.daily_streak
             lessons_completed = stats.lessons_completed
