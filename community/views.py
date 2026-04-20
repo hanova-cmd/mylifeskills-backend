@@ -63,10 +63,15 @@ class CreateTipView(APIView):
         if serializer.is_valid():
             user = request.user
             if hasattr(user, 'userstats'): 
-                user.stats.coins += 10  
-                user.stats.save()    
+                user.userstats.coins += 10  
+                user.userstats.save()    
                 reward = 10
-                new_coins = user.stats.coins  
+                new_coins = user.userstats.coins  
+            elif hasattr(user, 'stats'):
+                user.stats.coins += 10
+                user.stats.save()
+                reward = 10
+                new_coins = user.stats.coins
             elif hasattr(user, 'coins'):
                 user.coins += 10
                 user.save()
@@ -122,6 +127,9 @@ class LikeTipView(APIView):
                 if hasattr(tip.user, 'stats'):
                     tip.user.stats.points += 5
                     tip.user.stats.save()
+                elif hasattr(tip.user, 'userstats'):
+                    tip.user.userstats.points += 5
+                    tip.user.userstats.save()
             
             return Response({
                 'success': True,
@@ -189,7 +197,12 @@ class CommentView(APIView):
             tip.save()
             
             user = request.user
-            if hasattr(user, 'stats'):
+            if hasattr(user, 'userstats'):
+                user.userstats.coins += 3
+                user.userstats.save()
+                reward = 3
+                new_coins = user.userstats.coins
+            elif hasattr(user, 'stats'):
                 user.stats.coins += 3
                 user.stats.save()
                 reward = 3
@@ -231,7 +244,6 @@ class LikeCommentView(APIView):
 
 
 class AdminTipsView(generics.ListAPIView):
-    """Все советы для админа (включая неподтвержденные)"""
     queryset = CommunityTip.objects.all().order_by('-created_at')
     serializer_class = CommunityTipSerializer
     permission_classes = [IsAuthenticated]
@@ -296,7 +308,6 @@ class TestCommunityAPI(APIView):
 @api_view(['GET'])
 @permission_classes([AllowAny])
 def community_stats(request):
-    """Статистика комьюнити"""
     total_tips = CommunityTip.objects.count()
     total_likes = CommunityTip.objects.aggregate(total_likes=Count('likes_count'))['total_likes'] or 0
     total_comments = CommunityTip.objects.aggregate(total_comments=Count('comments_count'))['total_comments'] or 0
