@@ -155,3 +155,6 @@ if DEBUG:
 
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+import subprocess
+subprocess.run(['python', 'manage.py', 'loaddata', 'data.json'])
