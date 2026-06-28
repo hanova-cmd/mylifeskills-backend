@@ -2957,8 +2957,8 @@
       "updated_at": "2026-06-27T00:00:00Z"
     }
   },
-{{{
-{    "model": "shop.shopitem",
+  {
+    "model": "shop.shopitem",
     "pk": 313,
     "fields": {
       "name": "Shoes Red",
