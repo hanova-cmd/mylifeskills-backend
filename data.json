@@ -1870,6 +1870,72 @@
     }
   },
   {
+     "model": "shop.shopcategory",
+     "pk": 1,
+     "fields": {
+       "name": "skin",
+       "display_name": "Skin Tones",
+       "icon": "👤",
+       "order": 1, 
+       "description": "Skin colors and tones"
+     }
+   },
+   {
+  "model": "shop.shopcategory",
+  "pk": 2,
+  "fields": {
+    "name": "hair",
+    "display_name": "Hair",
+    "icon": "💇",
+    "order": 2,
+    "description": "Hairstyles and colors"
+  }
+},
+{
+  "model": "shop.shopcategory",
+  "pk": 3,
+  "fields": {
+    "name": "shirt",
+    "display_name": "Shirts/Tops",
+    "icon": "👕",
+    "order": 3,
+    "description": "T-shirts, shirts, hoodies"
+  }
+},
+{
+  "model": "shop.shopcategory",
+  "pk": 4,
+  "fields": {
+    "name": "pants",
+    "display_name": "Pants/Bottoms",
+    "icon": "👖",
+    "order": 4,
+    "description": "Jeans, trousers, skirts"
+  }
+},
+{
+  "model": "shop.shopcategory",
+  "pk": 5,
+  "fields": {
+    "name": "shoes",
+    "display_name": "Shoes",
+    "icon": "👟",
+    "order": 5,
+    "description": "Sneakers and footwear"
+  }
+},
+{
+  "model": "shop.shopcategory",
+  "pk": 6,
+  "fields": {
+    "name": "accessory",
+    "display_name": "Accessories",
+    "icon": "💍",
+    "order": 6,
+    "description": "Glasses, hats, jewelry"
+  }
+}
+  {
     "model": "shop.shopitem",
     "pk": 101,
     "fields": {
