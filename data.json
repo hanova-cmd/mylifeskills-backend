@@ -1934,7 +1934,7 @@
     "order": 6,
     "description": "Glasses, hats, jewelry"
   }
-}
+},
   {
     "model": "shop.shopitem",
     "pk": 101,
