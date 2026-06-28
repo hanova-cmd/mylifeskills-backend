@@ -1172,7 +1172,18 @@
       "created_at": "2026-06-27T00:00:00Z"    }
   },
   {
-    "coins": 30,
+    "model": "game.lesson",
+    "pk": 1,
+    "fields": {
+      "title": "How to Manage Stress",
+      "description": "Learn proven techniques to identify, manage, and reduce stress in your daily life.",
+      "category": 1,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 12,
+      "age_max": 25,
+      "duration": 20,
+      "coins": 30,
       "theory_content": "<h2>😌 How to Manage Stress</h2><p>Stress is your body's reaction to challenges. Learning to manage stress helps you feel better, think clearer, and enjoy life more.</p><h3>🔍 Identify Your Stress Triggers</h3><p>The first step is knowing what causes your stress. Common triggers include school deadlines, social pressure, and too many responsibilities.</p><h3>🌬️ Quick Relaxation Techniques</h3><p><strong>Deep Breathing (4-7-8):</strong> Breathe in for 4 seconds, hold for 7, exhale for 8. Repeat 4-5 times.</p><h3>🏃‍♀️ Long-Term Stress Management</h3><ul><li>Exercise regularly — 30 minutes of movement releases endorphins</li><li>Get enough sleep — teens need 8-10 hours</li><li>Eat healthy foods — reduce caffeine and sugar</li><li>Connect with others — talk to someone you trust</li><li>Set boundaries — learn to say no</li></ul>",
       "theory_images": [],
       "image": null,
@@ -1195,7 +1206,18 @@
     }
   },
   {
-    "coins": 30,
+    "model": "game.lesson",
+    "pk": 2,
+    "fields": {
+      "title": "How to Create a Budget",
+      "description": "Learn to track your money, create a budget that works, and save for your goals.",
+      "category": 2,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 13,
+      "age_max": 25,
+      "duration": 20,
+      "coins": 30,
       "theory_content": "<h2>💰 How to Create a Budget</h2><p>A budget is a plan for your money. It helps you spend less than you earn and save for things you want.</p><h3>📝 Step 1: Calculate Your Income</h3><p>Income is money you receive. For teens: allowance, part-time job, gift money.</p><h3>📊 Step 2: Track Your Expenses</h3><p>Track everything: food, phone bill, transportation, entertainment.</p><h3>📐 Step 3: Use the 50/30/20 Rule</h3><ul><li>50% for NEEDS — essential expenses</li><li>30% for WANTS — non-essential fun stuff</li><li>20% for SAVINGS — money for future goals</li></ul><h3>🎯 Step 4: Set Savings Goals</h3><p>Be specific: 'I will save $50 per month for 6 months to buy a new phone.'</p>",
       "theory_images": [],
       "image": null,
@@ -1219,6 +1241,17 @@
     }
   },
   {
+    "model": "game.lesson",
+    "pk": 3,
+    "fields": {
+      "title": "Kitchen Safety & Hygiene",
+      "description": "Learn essential kitchen safety rules and food hygiene practices to prevent accidents and illness.",
+      "category": 3,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 10,
+      "age_max": 25,
+      "duration": 15,
     "coins": 30,
       "theory_content": "<h2>🧼 Kitchen Safety & Hygiene</h2><p>Cooking is fun, but kitchens can be dangerous. Learning safety rules protects you and anyone you cook for.</p><h3>🧽 Personal Hygiene First</h3><ul><li>Wash hands with soap for 20 seconds before cooking</li><li>Tie back long hair</li><li>Roll up loose sleeves</li><li>Remove jewelry that could fall into food</li></ul><h3>🔪 Knife Safety</h3><ul><li>Always cut away from your body</li><li>Use a stable cutting board</li><li>Keep knives sharp — dull knives slip</li><li>Never leave knives in a sink full of soapy water</li></ul><h3>🔥 Stove and Oven Safety</h3><ul><li>Turn pot handles inward</li><li>Use oven mitts for hot pans</li><li>Never leave cooking food unattended</li></ul><p><strong>If a pan catches fire:</strong> NEVER use water. Slide a lid over the pan to smother the fire.</p><h3>🍗 Food Safety & Cross-Contamination</h3><ul><li>Use separate cutting boards for raw meat and produce</li><li>Cook meat to safe internal temperatures (chicken: 165°F)</li><li>Refrigerate leftovers within 2 hours</li></ul>",
       "theory_images": [],
@@ -1243,6 +1276,17 @@
     }
   },
   {
+    "model": "game.lesson",
+    "pk": 4,
+    "fields": {
+      "title": "How to Clean Your Room",
+      "description": "Learn effective cleaning strategies to keep your room organized, tidy, and comfortable.",
+      "category": 4,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 8,
+      "age_max": 25,
+      "duration": 15,
     "coins": 30,
       "theory_content": "<h2>🧹 How to Clean Your Room</h2><p>A clean room helps you think clearly, sleep better, and feel more in control. Plus, it's easier to find things!</p><h3>🎵 Step 1: Set the Mood</h3><ul><li>Play upbeat music (set a timer for 15-20 minutes)</li><li>Open windows for fresh air</li><li>Gather supplies: trash bag, laundry basket, cleaning spray</li></ul><h3>🗑️ Step 2: Quick Toss (5 minutes)</h3><ul><li>Empty food wrappers and drink bottles</li><li>Old papers and junk mail</li><li>Broken items you can't fix</li></ul><h3>👕 Step 3: Gather Laundry</h3><p>Put ALL dirty clothes in a laundry basket. Check under the bed, in the closet, and behind furniture.</p><h3>📦 Step 4: Put Things in Their Home (10 minutes)</h3><ul><li>Books on shelf</li><li>School supplies in desk</li><li>Games in designated spot</li></ul><h3>🧺 Step 5: Make Your Bed</h3><p>A made bed instantly makes your whole room look cleaner. It takes only 2 minutes!</p><h3>🧽 Step 6: Dust and Wipe Surfaces</h3><h3>🪣 Step 7: Vacuum or Sweep</h3><p>Vacuum carpets or sweep hard floors. Don't forget under the bed.</p>",
       "theory_images": [],
@@ -1267,6 +1311,17 @@
     }
   },
   {
+     "model": "game.lesson",
+    "pk": 5,
+    "fields": {
+      "title": "How to Save Money as a Teen",
+      "description": "Learn practical ways to earn, save, and manage money as a teenager. Build good financial habits early.",
+      "category": 2,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 12,
+      "age_max": 25,
+      "duration": 20,
     "coins": 30,
       "theory_content": "<h2>💰 How to Save Money as a Teen</h2><p>Saving money as a teenager sets you up for financial success as an adult. Start now — even small amounts add up!</p><h3>💵 Ways to Earn Money</h3><ul><li>Babysitting or pet sitting</li><li>Lawn mowing or yard work</li><li>Tutoring younger students</li><li>Part-time job at local stores</li><li>Selling handmade items online</li></ul><h3>🏦 Open a Savings Account</h3><p>Ask a parent to help you open a youth savings account. Your money earns interest and is safe.</p><h3>🎯 Set SMART Savings Goals</h3><p><strong>Specific:</strong> I want a new phone. <strong>Measurable:</strong> $300. <strong>Achievable:</strong> I can save $30/month. <strong>Relevant:</strong> I really want it. <strong>Time-bound:</strong> By December.</p>",
       "theory_images": [],
@@ -1291,6 +1346,17 @@
     }
   },
   {
+    "model": "game.lesson",
+    "pk": 6,
+    "fields": {
+      "title": "How to Boil an Egg",
+      "description": "Learn the perfect method to boil eggs for breakfast, salads, or snacks. Easy and healthy.",
+      "category": 3,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 10,
+      "age_max": 25,
+      "duration": 15,
     "coins": 30,
       "theory_content": "<h2>🥚 How to Boil an Egg</h2><p>Boiled eggs are perfect for breakfast, salads, or quick snacks. Learn the foolproof method for perfect eggs every time.</p><h3>📋 Steps</h3><ol><li>Place eggs in a single layer in a pot</li><li>Add enough cold water to cover eggs by 1 inch</li><li>Bring water to a rolling boil over high heat</li><li>Turn off heat, cover pot, and let sit</li><li>For soft-boiled: 4-6 minutes</li><li>For hard-boiled: 10-12 minutes</li><li>Transfer eggs to ice water bath to stop cooking</li><li>Peel and enjoy!</li></ol>",
       "theory_images": [],
@@ -1314,6 +1380,17 @@
     }
   },
   {
+    "model": "game.lesson",
+    "pk": 7,
+    "fields": {
+      "title": "How to Wash Dishes Properly",
+      "description": "Learn to wash dishes by hand efficiently and hygienically. A basic household skill.",
+      "category": 4,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 8,
+      "age_max": 25,
+      "duration": 15,
     "coins": 30,
       "theory_content": "<h2>🧼 How to Wash Dishes Properly</h2><p>Knowing how to wash dishes is a basic life skill. Learn the right way to get dishes truly clean.</p><h3>📋 Step-by-Step Method</h3><h4>Step 1: Scrape Off Food</h4><p>Scrape leftover food into the trash. Don't rinse it down the sink.</p><h4>Step 2: Fill Sink with Hot Water</h4><p>Add dish soap. Hot water kills germs and cuts through grease.</p><h4>Step 3: Sort and Wash in Order</h4><p>Wash cleanest to dirtiest: glasses, silverware, plates, pots.</p><h4>Step 4: Scrub Thoroughly</h4><p>Scrub all surfaces — front, back, and edges.</p><h4>Step 5: Rinse with Hot Water</h4><p>Rinse off soap under hot running water.</p><h4>Step 6: Dry Properly</h4><p>Air dry on a dish rack, or dry immediately with a clean towel.</p>",
       "theory_images": [],
@@ -1338,6 +1415,17 @@
     }
   },
   {
+    "model": "game.lesson",
+    "pk": 7,
+    "fields": {
+      "title": "How to Wash Dishes Properly",
+      "description": "Learn to wash dishes by hand efficiently and hygienically. A basic household skill.",
+      "category": 4,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 8,
+      "age_max": 25,
+      "duration": 15,
     "coins": 30,
       "theory_content": "<h2>💪 How to Build Self-Esteem</h2><p>Self-esteem is how you see and value yourself. When you have healthy self-esteem, you feel good about who you are and believe in your ability to handle life's challenges.</p><h3>🧠 Signs of Healthy Self-Esteem</h3><ul><li>You accept yourself, flaws and all</li><li>You can laugh at your mistakes</li><li>You handle criticism without falling apart</li><li>You try new things without fear of failure</li><li>You set boundaries and say no when needed</li></ul><h3>⚠️ Signs of Low Self-Esteem</h3><ul><li>You're very hard on yourself</li><li>You focus on weaknesses, not strengths</li><li>You feel you don't deserve good things</li><li>You avoid challenges because you might fail</li><li>You seek constant approval from others</li></ul><h3>🗣️ Challenge Negative Self-Talk</h3><p><strong>Negative thought:</strong> I'm so stupid, I failed that test.</p><p><strong>Balanced thought:</strong> I didn't do well on this test, but that doesn't mean I'm stupid. I can study differently next time.</p><h3>📝 Practice Self-Compassion</h3><p>Treat yourself like you would treat a good friend. Ask yourself: What would I say to my best friend in this situation?</p>",
       "theory_images": [],
@@ -1362,6 +1450,17 @@
     }
   },
   {
+    "model": "game.lesson",
+"pk": 9,
+"fields": {
+"title": "How to Make a Simple Salad",
+"description": "Learn to make healthy, delicious salads in minutes. A basic cooking skill everyone should know.",
+"category": 3,
+"lesson_type": "theory",
+"difficulty": "beginner",
+"age_min": 8,
+"age_max": 25,
+"duration": 10,
     "coins": 30,
       "theory_content": "<h2>🥗 How to Make a Simple Salad</h2><p>Salads are healthy, quick, and customizable. Once you know the basics, you can make a salad with almost any ingredients.</p><h3>🥬 Step 1: Choose Your Greens</h3><ul><li>Lettuce (iceberg, romaine, green leaf)</li><li>Spinach</li><li>Arugula</li><li>Kale</li><li>Mixed spring greens</li></ul><h3>🥕 Step 2: Add Vegetables</h3><ul><li>Tomatoes (cherry or chopped)</li><li>Cucumbers</li><li>Carrots (shredded or sliced)</li><li>Bell peppers</li><li>Red onion</li><li>Avocado</li></ul><h3>🍗 Step 3: Add Protein (Optional)</h3><ul><li>Grilled chicken</li><li>Hard-boiled eggs</li><li>Chickpeas or beans</li><li>Tofu</li><li>Tuna</li><li>Cheese (feta, cheddar, mozzarella)</li></ul><h3>🥑 Step 4: Add Healthy Fats</h3><ul><li>Avocado</li><li>Nuts (almonds, walnuts)</li><li>Seeds (sunflower, pumpkin)</li><li>Olives</li></ul><h3>🥣 Step 5: Make a Simple Dressing</h3><p><strong>Basic vinaigrette:</strong> 3 parts oil + 1 part vinegar + salt + pepper</p><h3>🍽️ Step 6: Toss and Enjoy</h3><p>Combine everything in a large bowl, add dressing, toss well, and serve immediately.</p>",
       "theory_images": [],
@@ -1386,6 +1485,17 @@
     }
   },
   {
+    "model": "game.lesson",
+"pk": 10,
+"fields": {
+"title": "How to Deal with Peer Pressure",
+"description": "Learn strategies to say no to peer pressure and stay true to your values.",
+"category": 1,
+"lesson_type": "theory",
+"difficulty": "intermediate",
+"age_min": 12,
+"age_max": 25,
+"duration": 20,
     "coins": 30,
       "theory_content": "<h2>👥 How to Deal with Peer Pressure</h2><p>Peer pressure happens when friends or classmates try to influence your decisions. Learning to say no is a superpower that will serve you for life.</p><h3>🚫 Types of Peer Pressure</h3><ul><li><strong>Spoken:</strong> Someone directly asks you to do something</li><li><strong>Unspoken:</strong> Everyone is doing it, so you feel left out</li><li><strong>Direct:</strong> Come on, everyone is doing it</li><li><strong>Indirect:</strong> Seeing others do something and feeling pressured to join</li><li><strong>Positive:</strong> Friends encourage you to do something good</li><li><strong>Negative:</strong> Friends pressure you to do something harmful or wrong</li></ul><h3>💪 How to Say No (6 Techniques)</h3><ul><li><strong>Simple No:</strong> No thanks.</li><li><strong>Give a Reason:</strong> No, I have to study.</li><li><strong>Suggest Something Else:</strong> I don't want to do that, but let's play video games instead.</li><li><strong>Walk Away:</strong> You don't have to stay.</li><li><strong>Use an Excuse:</strong> I can't. I have an early morning tomorrow.</li><li><strong>The Broken Record:</strong> Repeat your answer calmly. No. No. I said no.</li></ul>",
       "theory_images": [],
@@ -1410,6 +1520,17 @@
     }
   },
   {
+    "model": "game.lesson",
+"pk": 11,
+"fields": {
+"title": "How to Make a Grilled Cheese Sandwich",
+"description": "Learn to make the perfect grilled cheese — crispy outside, melty inside.",
+"category": 3,
+"lesson_type": "theory",
+"difficulty": "beginner",
+"age_min": 8,
+"age_max": 25,
+"duration": 10,
     "coins": 30,
       "theory_content": "<h2>🧀 How to Make a Grilled Cheese Sandwich</h2><p>Grilled cheese is a classic comfort food. It's easy to make, but there are tricks to make it perfect.</p><h3>🛒 Ingredients</h3><ul><li>2 slices of bread</li><li>1-2 slices of cheese</li><li>1 tablespoon butter (softened)</li></ul><h3>🍳 Equipment</h3><ul><li>Frying pan or skillet</li><li>Spatula</li><li>Butter knife</li></ul><h3>📋 Step-by-Step</h3><ol><li>Butter one side of each slice of bread.</li><li>Place one slice, buttered side down, in a cold pan. Add cheese.</li><li>Top with the second slice, buttered side up.</li><li>Cook on medium-low heat for 2-3 minutes until golden brown.</li><li>Flip carefully. Cook the other side for 2-3 minutes.</li><li>Remove, cool for 1 minute, cut in half, and enjoy!</li></ol><h3>💡 Pro Tips</h3><ul><li>Use low to medium heat — patience prevents burning.</li><li>Cover the pan with a lid for the last minute to help cheese melt faster.</li><li>Use two types of cheese for more flavor.</li><li>Add extras: tomato slices, bacon, ham, or avocado.</li></ul>",
       "theory_images": [],
@@ -1434,6 +1555,17 @@
     }
   },
   {
+    "model": "game.lesson",
+"pk": 12,
+"fields": {
+"title": "How to Change a Light Bulb",
+"description": "Learn to safely change different types of light bulbs in your home.",
+"category": 4,
+"lesson_type": "theory",
+"difficulty": "beginner",
+"age_min": 10,
+"age_max": 25,
+"duration": 10,
     "coins": 30,
       "theory_content": "<h2>💡 How to Change a Light Bulb</h2><p>Changing a light bulb is simple, but doing it safely matters. Learn the right way for different types of bulbs.</p><h3>⚠️ Safety First</h3><ul><li>Turn off the light switch</li><li>Let bulb cool down if it was on</li><li>Use a stable step stool or ladder — not a chair</li><li>Never touch a bulb with wet hands</li></ul><h3>🛠️ What You'll Need</h3><ul><li>New bulb (check wattage and size)</li><li>Step stool or small ladder</li></ul><h3>📋 Step-by-Step</h3><ol><li>Turn off the light switch.</li><li>Let bulb cool for 5-10 minutes.</li><li>Remove old bulb: standard — turn counter-clockwise (left). Pin-type — pull straight out.</li><li>Insert new bulb — screw in clockwise until snug.</li><li>Test — turn the light back on.</li></ol><h3>💡 Bulb Types</h3><ul><li><strong>LED:</strong> Most energy efficient, last longest</li><li><strong>CFL:</strong> Energy saving, contain small amount of mercury (recycle properly)</li><li><strong>Incandescent:</strong> Traditional bulbs, use more energy</li></ul><h3>♻️ Disposal</h3><ul><li><strong>LED and incandescent:</strong> Regular trash</li><li><strong>CFL:</strong> Take to recycling center — they contain mercury</li></ul>",
       "theory_images": [],
@@ -1458,6 +1590,17 @@
     }
   },
   {
+    "model": "game.lesson",
+"pk": 13,
+"fields": {
+"title": "How to Write a Thank You Note",
+"description": "Learn to write thoughtful thank you notes for gifts, help, or kindness.",
+"category": 4,
+"lesson_type": "theory",
+"difficulty": "beginner",
+"age_min": 8,
+"age_max": 25,
+"duration": 10,
     "coins": 30,
       "theory_content": "<h2>✍️ How to Write a Thank You Note</h2><p>A handwritten thank you note shows appreciation and makes people feel valued. It's a small effort with big impact.</p><h3>📝 When to Write a Thank You Note</h3><ul><li>After receiving a gift</li><li>After someone helps you</li><li>After a job interview</li><li>After staying at someone's house</li><li>To thank a teacher or mentor</li><li>Just because — to show appreciation</li></ul><h3>✉️ What You'll Need</h3><ul><li>Blank card or paper</li><li>Pen</li><li>Envelope</li></ul><h3>📋 The 4-Part Formula</h3><ul><li><strong>Greeting:</strong> Dear Name,</li><li><strong>Say Thank You and Be Specific:</strong> Thank you so much for the art set. I love the watercolors!</li><li><strong>Share How You'll Use It:</strong> I've already used it to paint a picture of our dog.</li><li><strong>Close Warmly:</strong> Sincerely, With love, Best regards,</li></ul>",
       "theory_images": [],
@@ -1482,6 +1625,17 @@
     }
   },
   {
+    "model": "game.lesson",
+"pk": 14,
+"fields": {
+"title": "How to Pack a School Bag",
+"description": "Learn to organize your backpack for school — carry what you need, stay organized.",
+"category": 4,
+"lesson_type": "theory",
+"difficulty": "beginner",
+"age_min": 8,
+"age_max": 25,
+"duration": 10,
     "coins": 30,
       "theory_content": "<h2>🎒 How to Pack a School Bag</h2><p>A well-packed backpack helps you stay organized, find things quickly, and avoid back pain. Learn the right way to pack.</p><h3>🎒 Choose the Right Backpack</h3><ul><li>Two padded shoulder straps</li><li>Padded back for comfort</li><li>Multiple compartments for organization</li><li>Right size — not too big, not too small</li><li>Lightweight material</li></ul><h3>📋 What to Pack Daily</h3><ul><li>Textbooks needed for the day</li><li>Notebooks and folders</li><li>Pencil case</li><li>Laptop or tablet (if needed)</li><li>Water bottle</li><li>Lunch or snack</li></ul><h3>📦 How to Pack — The Layer Method</h3><ul><li><strong>Layer 1 (Bottom): Heavy Items</strong> — textbooks at the bottom, closest to your back</li><li><strong>Layer 2 (Middle): Medium Items</strong> — binders, notebooks, folders</li><li><strong>Layer 3 (Top): Light Items</strong> — lunch, jacket, light items</li><li><strong>Small Compartments:</strong> Pencil case, calculator, phone, keys, wallet</li></ul>",
       "theory_images": [],
@@ -1506,6 +1660,17 @@
     }
   },
   {
+    "model": "game.lesson",
+"pk": 15,
+"fields": {
+"title": "How to Make Instant Noodles Better",
+"description": "Upgrade basic instant noodles with simple additions. Cheap, fast, and delicious.",
+"category": 3,
+"lesson_type": "theory",
+"difficulty": "beginner",
+"age_min": 10,
+"age_max": 25,
+"duration": 10,
     "coins": 30,
       "theory_content": "<h2>🍜 How to Make Instant Noodles Better</h2><p>Instant noodles are cheap and fast, but they can be boring. With a few simple additions, you can turn them into a real meal.</p><h3>🥚 Easy Add-Ins</h3><ul><li><strong>Egg:</strong> Crack an egg into the noodles during the last minute of cooking</li><li><strong>Frozen vegetables:</strong> Peas, corn, carrots</li><li><strong>Green onions:</strong> Chop and sprinkle on top</li><li><strong>Soy sauce:</strong> A splash adds depth</li><li><strong>Sesame oil:</strong> A few drops for nutty flavor</li><li><strong>Hot sauce:</strong> Sriracha, chili oil</li></ul><h3>🍳 Perfect Egg in Noodles</h3><ol><li>Cook noodles according to package</li><li>During the last minute, crack an egg directly into the pot</li><li>Don't stir — let egg poach for 1-2 minutes</li><li>Serve with runny yolk</li></ol><h3>🍲 Broth Upgrades</h3><ul><li>Use half the seasoning packet (less sodium)</li><li>Add a spoonful of peanut butter for creamy Thai-style broth</li><li>Splash of milk or coconut milk for creamy broth</li><li>Rice vinegar or lime juice for tang</li></ul>",
       "theory_images": [],
@@ -1530,6 +1695,17 @@
     }
   },
   {
+    "model": "game.lesson",
+"pk": 16,
+"fields": {
+"title": "How to Tie Your Shoes (Different Methods)",
+"description": "Learn multiple ways to tie your shoes — standard, faster, and stays tied longer.",
+"category": 4,
+"lesson_type": "theory",
+"difficulty": "beginner",
+"age_min": 5,
+"age_max": 25,
+"duration": 10,
     "coins": 30,
       "theory_content": "<h2>👟 How to Tie Your Shoes (Different Methods)</h2><p>Most people learn one way to tie shoes. But there are multiple methods — some faster, some stronger, some easier for kids. Learn them all!</p><h3>🎀 Method 1: Standard Bunny Ears</h3><ol><li>Cross the laces and pull tight</li><li>Make a loop with each lace</li><li>Cross the loops</li><li>Pull one loop through the hole</li><li>Pull both loops tight</li></ol><h3>⚡ Method 2: Standard Knot (Fastest)</h3><ol><li>Cross the laces and pull tight</li><li>Make a loop with one lace</li><li>Wrap the other lace around the loop</li><li>Pull the second lace through the hole</li><li>Pull both loops tight</li></ol><h3>🔒 Method 3: Double Knot (Stays Tied Longest)</h3><ol><li>Tie a standard knot</li><li>Tie another knot on top</li><li>Pull tight</li></ol>",
       "theory_images": [],
@@ -1554,6 +1730,17 @@
     }
   },
   {
+    "model": "game.lesson",
+"pk": 17,
+"fields": {
+"title": "How to Introduce Yourself",
+"description": "Learn to introduce yourself confidently in any situation — school, jobs, or social events.",
+"category": 1,
+"lesson_type": "theory",
+"difficulty": "beginner",
+"age_min": 8,
+"age_max": 25,
+"duration": 15,
     "coins": 30,
       "theory_content": "<h2>👋 How to Introduce Yourself</h2><p>Introducing yourself can feel awkward, but it's a skill anyone can learn. A good introduction makes a positive first impression and starts conversations.</p><h3>📝 The Formula for Any Introduction</h3><p><strong>Hello + Name + Something About You + Question</strong></p><p>Example: Hi, I'm Alex. I'm in Mr. Chen's biology class. What class are you in?</p><h3>🎯 For Different Situations</h3><ul><li><strong>School / New Class:</strong> Hi, I'm [Name]. I just moved here. What's your name?</li><li><strong>Job Interview:</strong> Hello, I'm [Name]. It's nice to meet you. I've been working on [skill] for the past two years.</li><li><strong>Party / Social Event:</strong> Hey, I'm [Name]. How do you know the host?</li></ul><h3>💡 Body Language Tips</h3><ul><li>Make eye contact</li><li>Smile naturally</li><li>Stand up straight</li><li>Offer a handshake (in professional settings)</li><li>Speak clearly</li></ul>",
       "theory_images": [],
@@ -1578,6 +1765,17 @@
     }
   },
   {
+    "model": "game.lesson",
+"pk": 18,
+"fields": {
+"title": "How to Read a Clock",
+"description": "Learn to read analog and digital clocks. Tell time confidently for school, appointments, and daily life.",
+"category": 4,
+"lesson_type": "theory",
+"difficulty": "beginner",
+"age_min": 6,
+"age_max": 25,
+"duration": 15,
     "coins": 30,
       "theory_content": "<h2>⏰ How to Read a Clock</h2><p>Knowing how to read a clock is an essential life skill. While phones show digital time, analog clocks are everywhere — schools, offices, train stations.</p><h3>🕰️ Parts of an Analog Clock</h3><ul><li><strong>Hour hand (short hand):</strong> Tells the hour</li><li><strong>Minute hand (long hand):</strong> Tells the minutes</li><li><strong>Second hand (thin hand):</strong> Tells seconds</li><li><strong>Numbers 1-12:</strong> Mark the hours</li><li><strong>Tick marks:</strong> Small lines between numbers for minutes</li></ul><h3>📖 How to Read the Hour</h3><p>The hour hand is the short hand. If it points exactly at 3 → it's 3 o'clock. If it's between 3 and 4 → it's still 3 something.</p><h3>🔢 How to Read the Minutes</h3><p>Each number represents 5 minutes: 12=0, 1=5, 2=10, 3=15, 4=20, 5=25, 6=30, 7=35, 8=40, 9=45, 10=50, 11=55.</p><h3>📝 Examples</h3><ul><li>Short hand at 3, long hand at 12 → 3:00</li><li>Short hand at 3, long hand at 6 → 3:30</li><li>Short hand at 3, long hand at 9 → 3:45</li></ul>",
       "theory_images": [],
@@ -1602,6 +1800,17 @@
     }
   },
   {
+    "model": "game.lesson",
+"pk": 19,
+"fields": {
+"title": "How to Use a Broom and Dustpan",
+"description": "Learn proper sweeping technique to clean floors efficiently.",
+"category": 4,
+"lesson_type": "theory",
+"difficulty": "beginner",
+"age_min": 6,
+"age_max": 25,
+"duration": 10,
     "coins": 30,
       "theory_content": "<h2>🧹 How to Use a Broom and Dustpan</h2><p>Sweeping seems simple, but doing it right makes cleaning faster and more effective. Learn proper technique.</p><h3>🛠️ What You'll Need</h3><ul><li>Broom</li><li>Dustpan</li><li>Trash can</li></ul><h3>📋 Step-by-Step</h3><ol><li>Clear the floor of large items</li><li>Start at one corner of the room</li><li>Sweep in long, even strokes toward you</li><li>Work from corners toward the center</li><li>Sweep dirt into a pile in one spot</li><li>Position dustpan flat on floor</li><li>Sweep dirt into dustpan</li><li>Empty dustpan into trash</li></ol><h3>💡 Pro Tips</h3><ul><li>Sweep toward you, not away</li><li>Use short strokes for corners</li><li>Dampen broom slightly to catch fine dust</li><li>Sweep in one direction, not back and forth</li></ul>",
       "theory_images": [],
@@ -1626,6 +1835,17 @@
     }
   },
   {
+    "model": "game.lesson",
+"pk": 20,
+"fields": {
+"title": "How to Make a Phone Call",
+"description": "Learn to make phone calls confidently — for appointments, ordering food, or calling friends.",
+"category": 4,
+"lesson_type": "theory",
+"difficulty": "beginner",
+"age_min": 8,
+"age_max": 25,
+"duration": 15,
     "coins": 30,
       "theory_content": "<h2>📞 How to Make a Phone Call</h2><p>Phone calls can feel intimidating, but they're an important skill. With practice, anyone can learn to call confidently.</p><h3>📝 Before You Call</h3><ul><li>Know why you're calling</li><li>Have pen and paper ready to write notes</li><li>Find a quiet place</li><li>Take a deep breath</li></ul><h3>🗣️ The Call Structure</h3><ul><li><strong>Greeting:</strong> Hello, this is [Your Name].</li><li><strong>State Your Purpose:</strong> I'm calling to make an appointment. or I have a question about...</li><li><strong>Conversation:</strong> Listen and respond. Ask questions if needed.</li><li><strong>Closing:</strong> Thank you. Have a good day. Goodbye.</li></ul><h3>📱 Example Scripts</h3><ul><li><strong>Calling a friend:</strong> Hey Sarah, it's Alex. What are you doing Saturday?</li><li><strong>Calling a doctor's office:</strong> Hello, this is Taylor Jones. I need to make an appointment.</li><li><strong>Calling to order food:</strong> Hi, I'd like to place an order for pickup.</li></ul>",
       "theory_images": [],
