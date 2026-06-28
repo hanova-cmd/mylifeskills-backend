@@ -1172,18 +1172,7 @@
       "created_at": "2026-06-27T00:00:00Z"    }
   },
   {
-    "model": "game.lesson",
-    "pk": 1,
-    "fields": {
-      "title": "How to Manage Stress",
-      "description": "Learn proven techniques to identify, manage, and reduce stress in your daily life.",
-      "category": 1,
-      "lesson_type": "theory",
-      "difficulty": "beginner",
-      "age_min": 12,
-      "age_max": 25,
-      "duration": 20,
-      "coins": 60,
+    $130,
       "theory_content": "<h2>😌 How to Manage Stress</h2><p>Stress is your body's reaction to challenges. Learning to manage stress helps you feel better, think clearer, and enjoy life more.</p><h3>🔍 Identify Your Stress Triggers</h3><p>The first step is knowing what causes your stress. Common triggers include school deadlines, social pressure, and too many responsibilities.</p><h3>🌬️ Quick Relaxation Techniques</h3><p><strong>Deep Breathing (4-7-8):</strong> Breathe in for 4 seconds, hold for 7, exhale for 8. Repeat 4-5 times.</p><h3>🏃‍♀️ Long-Term Stress Management</h3><ul><li>Exercise regularly — 30 minutes of movement releases endorphins</li><li>Get enough sleep — teens need 8-10 hours</li><li>Eat healthy foods — reduce caffeine and sugar</li><li>Connect with others — talk to someone you trust</li><li>Set boundaries — learn to say no</li></ul>",
       "theory_images": [],
       "image": null,
@@ -1206,18 +1195,7 @@
     }
   },
   {
-    "model": "game.lesson",
-    "pk": 2,
-    "fields": {
-      "title": "How to Create a Budget",
-      "description": "Learn to track your money, create a budget that works, and save for your goals.",
-      "category": 2,
-      "lesson_type": "theory",
-      "difficulty": "beginner",
-      "age_min": 13,
-      "age_max": 25,
-      "duration": 20,
-      "coins": 60,
+    $130,
       "theory_content": "<h2>💰 How to Create a Budget</h2><p>A budget is a plan for your money. It helps you spend less than you earn and save for things you want.</p><h3>📝 Step 1: Calculate Your Income</h3><p>Income is money you receive. For teens: allowance, part-time job, gift money.</p><h3>📊 Step 2: Track Your Expenses</h3><p>Track everything: food, phone bill, transportation, entertainment.</p><h3>📐 Step 3: Use the 50/30/20 Rule</h3><ul><li>50% for NEEDS — essential expenses</li><li>30% for WANTS — non-essential fun stuff</li><li>20% for SAVINGS — money for future goals</li></ul><h3>🎯 Step 4: Set Savings Goals</h3><p>Be specific: 'I will save $50 per month for 6 months to buy a new phone.'</p>",
       "theory_images": [],
       "image": null,
@@ -1241,18 +1219,7 @@
     }
   },
   {
-    "model": "game.lesson",
-    "pk": 3,
-    "fields": {
-      "title": "Kitchen Safety & Hygiene",
-      "description": "Learn essential kitchen safety rules and food hygiene practices to prevent accidents and illness.",
-      "category": 3,
-      "lesson_type": "theory",
-      "difficulty": "beginner",
-      "age_min": 10,
-      "age_max": 25,
-      "duration": 15,
-      "coins": 50,
+    $130,
       "theory_content": "<h2>🧼 Kitchen Safety & Hygiene</h2><p>Cooking is fun, but kitchens can be dangerous. Learning safety rules protects you and anyone you cook for.</p><h3>🧽 Personal Hygiene First</h3><ul><li>Wash hands with soap for 20 seconds before cooking</li><li>Tie back long hair</li><li>Roll up loose sleeves</li><li>Remove jewelry that could fall into food</li></ul><h3>🔪 Knife Safety</h3><ul><li>Always cut away from your body</li><li>Use a stable cutting board</li><li>Keep knives sharp — dull knives slip</li><li>Never leave knives in a sink full of soapy water</li></ul><h3>🔥 Stove and Oven Safety</h3><ul><li>Turn pot handles inward</li><li>Use oven mitts for hot pans</li><li>Never leave cooking food unattended</li></ul><p><strong>If a pan catches fire:</strong> NEVER use water. Slide a lid over the pan to smother the fire.</p><h3>🍗 Food Safety & Cross-Contamination</h3><ul><li>Use separate cutting boards for raw meat and produce</li><li>Cook meat to safe internal temperatures (chicken: 165°F)</li><li>Refrigerate leftovers within 2 hours</li></ul>",
       "theory_images": [],
       "image": null,
@@ -1276,18 +1243,7 @@
     }
   },
   {
-    "model": "game.lesson",
-    "pk": 4,
-    "fields": {
-      "title": "How to Clean Your Room",
-      "description": "Learn effective cleaning strategies to keep your room organized, tidy, and comfortable.",
-      "category": 4,
-      "lesson_type": "theory",
-      "difficulty": "beginner",
-      "age_min": 8,
-      "age_max": 25,
-      "duration": 15,
-      "coins": 50,
+    $130,
       "theory_content": "<h2>🧹 How to Clean Your Room</h2><p>A clean room helps you think clearly, sleep better, and feel more in control. Plus, it's easier to find things!</p><h3>🎵 Step 1: Set the Mood</h3><ul><li>Play upbeat music (set a timer for 15-20 minutes)</li><li>Open windows for fresh air</li><li>Gather supplies: trash bag, laundry basket, cleaning spray</li></ul><h3>🗑️ Step 2: Quick Toss (5 minutes)</h3><ul><li>Empty food wrappers and drink bottles</li><li>Old papers and junk mail</li><li>Broken items you can't fix</li></ul><h3>👕 Step 3: Gather Laundry</h3><p>Put ALL dirty clothes in a laundry basket. Check under the bed, in the closet, and behind furniture.</p><h3>📦 Step 4: Put Things in Their Home (10 minutes)</h3><ul><li>Books on shelf</li><li>School supplies in desk</li><li>Games in designated spot</li></ul><h3>🧺 Step 5: Make Your Bed</h3><p>A made bed instantly makes your whole room look cleaner. It takes only 2 minutes!</p><h3>🧽 Step 6: Dust and Wipe Surfaces</h3><h3>🪣 Step 7: Vacuum or Sweep</h3><p>Vacuum carpets or sweep hard floors. Don't forget under the bed.</p>",
       "theory_images": [],
       "image": null,
@@ -1311,18 +1267,7 @@
     }
   },
   {
-    "model": "game.lesson",
-    "pk": 5,
-    "fields": {
-      "title": "How to Save Money as a Teen",
-      "description": "Learn practical ways to earn, save, and manage money as a teenager. Build good financial habits early.",
-      "category": 2,
-      "lesson_type": "theory",
-      "difficulty": "beginner",
-      "age_min": 12,
-      "age_max": 25,
-      "duration": 20,
-      "coins": 60,
+    $130,
       "theory_content": "<h2>💰 How to Save Money as a Teen</h2><p>Saving money as a teenager sets you up for financial success as an adult. Start now — even small amounts add up!</p><h3>💵 Ways to Earn Money</h3><ul><li>Babysitting or pet sitting</li><li>Lawn mowing or yard work</li><li>Tutoring younger students</li><li>Part-time job at local stores</li><li>Selling handmade items online</li></ul><h3>🏦 Open a Savings Account</h3><p>Ask a parent to help you open a youth savings account. Your money earns interest and is safe.</p><h3>🎯 Set SMART Savings Goals</h3><p><strong>Specific:</strong> I want a new phone. <strong>Measurable:</strong> $300. <strong>Achievable:</strong> I can save $30/month. <strong>Relevant:</strong> I really want it. <strong>Time-bound:</strong> By December.</p>",
       "theory_images": [],
       "image": null,
@@ -1346,18 +1291,7 @@
     }
   },
   {
-    "model": "game.lesson",
-    "pk": 6,
-    "fields": {
-      "title": "How to Boil an Egg",
-      "description": "Learn the perfect method to boil eggs for breakfast, salads, or snacks. Easy and healthy.",
-      "category": 3,
-      "lesson_type": "theory",
-      "difficulty": "beginner",
-      "age_min": 10,
-      "age_max": 25,
-      "duration": 15,
-      "coins": 50,
+    $130,
       "theory_content": "<h2>🥚 How to Boil an Egg</h2><p>Boiled eggs are perfect for breakfast, salads, or quick snacks. Learn the foolproof method for perfect eggs every time.</p><h3>📋 Steps</h3><ol><li>Place eggs in a single layer in a pot</li><li>Add enough cold water to cover eggs by 1 inch</li><li>Bring water to a rolling boil over high heat</li><li>Turn off heat, cover pot, and let sit</li><li>For soft-boiled: 4-6 minutes</li><li>For hard-boiled: 10-12 minutes</li><li>Transfer eggs to ice water bath to stop cooking</li><li>Peel and enjoy!</li></ol>",
       "theory_images": [],
       "image": null,
@@ -1380,18 +1314,7 @@
     }
   },
   {
-    "model": "game.lesson",
-    "pk": 7,
-    "fields": {
-      "title": "How to Wash Dishes Properly",
-      "description": "Learn to wash dishes by hand efficiently and hygienically. A basic household skill.",
-      "category": 4,
-      "lesson_type": "theory",
-      "difficulty": "beginner",
-      "age_min": 8,
-      "age_max": 25,
-      "duration": 15,
-      "coins": 50,
+    $130,
       "theory_content": "<h2>🧼 How to Wash Dishes Properly</h2><p>Knowing how to wash dishes is a basic life skill. Learn the right way to get dishes truly clean.</p><h3>📋 Step-by-Step Method</h3><h4>Step 1: Scrape Off Food</h4><p>Scrape leftover food into the trash. Don't rinse it down the sink.</p><h4>Step 2: Fill Sink with Hot Water</h4><p>Add dish soap. Hot water kills germs and cuts through grease.</p><h4>Step 3: Sort and Wash in Order</h4><p>Wash cleanest to dirtiest: glasses, silverware, plates, pots.</p><h4>Step 4: Scrub Thoroughly</h4><p>Scrub all surfaces — front, back, and edges.</p><h4>Step 5: Rinse with Hot Water</h4><p>Rinse off soap under hot running water.</p><h4>Step 6: Dry Properly</h4><p>Air dry on a dish rack, or dry immediately with a clean towel.</p>",
       "theory_images": [],
       "image": null,
@@ -1415,18 +1338,7 @@
     }
   },
   {
-    "model": "game.lesson",
-    "pk": 8,
-    "fields": {
-      "title": "How to Build Self-Esteem",
-      "description": "Learn what self-esteem is and practical ways to feel more confident and value yourself.",
-      "category": 1,
-      "lesson_type": "theory",
-      "difficulty": "beginner",
-      "age_min": 11,
-      "age_max": 25,
-      "duration": 20,
-      "coins": 60,
+    $130,
       "theory_content": "<h2>💪 How to Build Self-Esteem</h2><p>Self-esteem is how you see and value yourself. When you have healthy self-esteem, you feel good about who you are and believe in your ability to handle life's challenges.</p><h3>🧠 Signs of Healthy Self-Esteem</h3><ul><li>You accept yourself, flaws and all</li><li>You can laugh at your mistakes</li><li>You handle criticism without falling apart</li><li>You try new things without fear of failure</li><li>You set boundaries and say no when needed</li></ul><h3>⚠️ Signs of Low Self-Esteem</h3><ul><li>You're very hard on yourself</li><li>You focus on weaknesses, not strengths</li><li>You feel you don't deserve good things</li><li>You avoid challenges because you might fail</li><li>You seek constant approval from others</li></ul><h3>🗣️ Challenge Negative Self-Talk</h3><p><strong>Negative thought:</strong> I'm so stupid, I failed that test.</p><p><strong>Balanced thought:</strong> I didn't do well on this test, but that doesn't mean I'm stupid. I can study differently next time.</p><h3>📝 Practice Self-Compassion</h3><p>Treat yourself like you would treat a good friend. Ask yourself: What would I say to my best friend in this situation?</p>",
       "theory_images": [],
       "image": null,
@@ -1450,18 +1362,7 @@
     }
   },
   {
-    "model": "game.lesson",
-    "pk": 9,
-    "fields": {
-      "title": "How to Make a Simple Salad",
-      "description": "Learn to make healthy, delicious salads in minutes. A basic cooking skill everyone should know.",
-      "category": 3,
-      "lesson_type": "theory",
-      "difficulty": "beginner",
-      "age_min": 8,
-      "age_max": 25,
-      "duration": 10,
-      "coins": 40,
+    $130,
       "theory_content": "<h2>🥗 How to Make a Simple Salad</h2><p>Salads are healthy, quick, and customizable. Once you know the basics, you can make a salad with almost any ingredients.</p><h3>🥬 Step 1: Choose Your Greens</h3><ul><li>Lettuce (iceberg, romaine, green leaf)</li><li>Spinach</li><li>Arugula</li><li>Kale</li><li>Mixed spring greens</li></ul><h3>🥕 Step 2: Add Vegetables</h3><ul><li>Tomatoes (cherry or chopped)</li><li>Cucumbers</li><li>Carrots (shredded or sliced)</li><li>Bell peppers</li><li>Red onion</li><li>Avocado</li></ul><h3>🍗 Step 3: Add Protein (Optional)</h3><ul><li>Grilled chicken</li><li>Hard-boiled eggs</li><li>Chickpeas or beans</li><li>Tofu</li><li>Tuna</li><li>Cheese (feta, cheddar, mozzarella)</li></ul><h3>🥑 Step 4: Add Healthy Fats</h3><ul><li>Avocado</li><li>Nuts (almonds, walnuts)</li><li>Seeds (sunflower, pumpkin)</li><li>Olives</li></ul><h3>🥣 Step 5: Make a Simple Dressing</h3><p><strong>Basic vinaigrette:</strong> 3 parts oil + 1 part vinegar + salt + pepper</p><h3>🍽️ Step 6: Toss and Enjoy</h3><p>Combine everything in a large bowl, add dressing, toss well, and serve immediately.</p>",
       "theory_images": [],
       "image": null,
@@ -1485,18 +1386,7 @@
     }
   },
   {
-    "model": "game.lesson",
-    "pk": 10,
-    "fields": {
-      "title": "How to Deal with Peer Pressure",
-      "description": "Learn strategies to say no to peer pressure and stay true to your values. Build confidence to make your own choices.",
-      "category": 1,
-      "lesson_type": "theory",
-      "difficulty": "intermediate",
-      "age_min": 12,
-      "age_max": 25,
-      "duration": 20,
-      "coins": 60,
+    $130,
       "theory_content": "<h2>👥 How to Deal with Peer Pressure</h2><p>Peer pressure happens when friends or classmates try to influence your decisions. Learning to say no is a superpower that will serve you for life.</p><h3>🚫 Types of Peer Pressure</h3><ul><li><strong>Spoken:</strong> Someone directly asks you to do something</li><li><strong>Unspoken:</strong> Everyone is doing it, so you feel left out</li><li><strong>Direct:</strong> Come on, everyone is doing it</li><li><strong>Indirect:</strong> Seeing others do something and feeling pressured to join</li><li><strong>Positive:</strong> Friends encourage you to do something good</li><li><strong>Negative:</strong> Friends pressure you to do something harmful or wrong</li></ul><h3>💪 How to Say No (6 Techniques)</h3><ul><li><strong>Simple No:</strong> No thanks.</li><li><strong>Give a Reason:</strong> No, I have to study.</li><li><strong>Suggest Something Else:</strong> I don't want to do that, but let's play video games instead.</li><li><strong>Walk Away:</strong> You don't have to stay.</li><li><strong>Use an Excuse:</strong> I can't. I have an early morning tomorrow.</li><li><strong>The Broken Record:</strong> Repeat your answer calmly. No. No. I said no.</li></ul>",
       "theory_images": [],
       "image": null,
@@ -1520,18 +1410,7 @@
     }
   },
   {
-    "model": "game.lesson",
-    "pk": 11,
-    "fields": {
-      "title": "How to Make a Grilled Cheese Sandwich",
-      "description": "Learn to make the perfect grilled cheese — crispy outside, melty inside. A classic beginner recipe.",
-      "category": 3,
-      "lesson_type": "theory",
-      "difficulty": "beginner",
-      "age_min": 8,
-      "age_max": 25,
-      "duration": 10,
-      "coins": 40,
+    $130,
       "theory_content": "<h2>🧀 How to Make a Grilled Cheese Sandwich</h2><p>Grilled cheese is a classic comfort food. It's easy to make, but there are tricks to make it perfect.</p><h3>🛒 Ingredients</h3><ul><li>2 slices of bread</li><li>1-2 slices of cheese</li><li>1 tablespoon butter (softened)</li></ul><h3>🍳 Equipment</h3><ul><li>Frying pan or skillet</li><li>Spatula</li><li>Butter knife</li></ul><h3>📋 Step-by-Step</h3><ol><li>Butter one side of each slice of bread.</li><li>Place one slice, buttered side down, in a cold pan. Add cheese.</li><li>Top with the second slice, buttered side up.</li><li>Cook on medium-low heat for 2-3 minutes until golden brown.</li><li>Flip carefully. Cook the other side for 2-3 minutes.</li><li>Remove, cool for 1 minute, cut in half, and enjoy!</li></ol><h3>💡 Pro Tips</h3><ul><li>Use low to medium heat — patience prevents burning.</li><li>Cover the pan with a lid for the last minute to help cheese melt faster.</li><li>Use two types of cheese for more flavor.</li><li>Add extras: tomato slices, bacon, ham, or avocado.</li></ul>",
       "theory_images": [],
       "image": null,
@@ -1555,18 +1434,7 @@
     }
   },
   {
-    "model": "game.lesson",
-    "pk": 12,
-    "fields": {
-      "title": "How to Change a Light Bulb",
-      "description": "Learn to safely change different types of light bulbs in your home. A simple but important household skill.",
-      "category": 4,
-      "lesson_type": "theory",
-      "difficulty": "beginner",
-      "age_min": 10,
-      "age_max": 25,
-      "duration": 10,
-      "coins": 40,
+    $130,
       "theory_content": "<h2>💡 How to Change a Light Bulb</h2><p>Changing a light bulb is simple, but doing it safely matters. Learn the right way for different types of bulbs.</p><h3>⚠️ Safety First</h3><ul><li>Turn off the light switch</li><li>Let bulb cool down if it was on</li><li>Use a stable step stool or ladder — not a chair</li><li>Never touch a bulb with wet hands</li></ul><h3>🛠️ What You'll Need</h3><ul><li>New bulb (check wattage and size)</li><li>Step stool or small ladder</li></ul><h3>📋 Step-by-Step</h3><ol><li>Turn off the light switch.</li><li>Let bulb cool for 5-10 minutes.</li><li>Remove old bulb: standard — turn counter-clockwise (left). Pin-type — pull straight out.</li><li>Insert new bulb — screw in clockwise until snug.</li><li>Test — turn the light back on.</li></ol><h3>💡 Bulb Types</h3><ul><li><strong>LED:</strong> Most energy efficient, last longest</li><li><strong>CFL:</strong> Energy saving, contain small amount of mercury (recycle properly)</li><li><strong>Incandescent:</strong> Traditional bulbs, use more energy</li></ul><h3>♻️ Disposal</h3><ul><li><strong>LED and incandescent:</strong> Regular trash</li><li><strong>CFL:</strong> Take to recycling center — they contain mercury</li></ul>",
       "theory_images": [],
       "image": null,
@@ -1590,18 +1458,7 @@
     }
   },
   {
-    "model": "game.lesson",
-    "pk": 13,
-    "fields": {
-      "title": "How to Write a Thank You Note",
-      "description": "Learn to write thoughtful thank you notes for gifts, help, or kindness. A simple gesture that means a lot.",
-      "category": 4,
-      "lesson_type": "theory",
-      "difficulty": "beginner",
-      "age_min": 8,
-      "age_max": 25,
-      "duration": 10,
-      "coins": 40,
+    $130,
       "theory_content": "<h2>✍️ How to Write a Thank You Note</h2><p>A handwritten thank you note shows appreciation and makes people feel valued. It's a small effort with big impact.</p><h3>📝 When to Write a Thank You Note</h3><ul><li>After receiving a gift</li><li>After someone helps you</li><li>After a job interview</li><li>After staying at someone's house</li><li>To thank a teacher or mentor</li><li>Just because — to show appreciation</li></ul><h3>✉️ What You'll Need</h3><ul><li>Blank card or paper</li><li>Pen</li><li>Envelope</li></ul><h3>📋 The 4-Part Formula</h3><ul><li><strong>Greeting:</strong> Dear Name,</li><li><strong>Say Thank You and Be Specific:</strong> Thank you so much for the art set. I love the watercolors!</li><li><strong>Share How You'll Use It:</strong> I've already used it to paint a picture of our dog.</li><li><strong>Close Warmly:</strong> Sincerely, With love, Best regards,</li></ul>",
       "theory_images": [],
       "image": null,
@@ -1625,18 +1482,7 @@
     }
   },
   {
-    "model": "game.lesson",
-    "pk": 14,
-    "fields": {
-      "title": "How to Pack a School Bag",
-      "description": "Learn to organize your backpack for school — carry what you need, stay organized, and reduce back strain.",
-      "category": 4,
-      "lesson_type": "theory",
-      "difficulty": "beginner",
-      "age_min": 8,
-      "age_max": 25,
-      "duration": 10,
-      "coins": 40,
+    $130,
       "theory_content": "<h2>🎒 How to Pack a School Bag</h2><p>A well-packed backpack helps you stay organized, find things quickly, and avoid back pain. Learn the right way to pack.</p><h3>🎒 Choose the Right Backpack</h3><ul><li>Two padded shoulder straps</li><li>Padded back for comfort</li><li>Multiple compartments for organization</li><li>Right size — not too big, not too small</li><li>Lightweight material</li></ul><h3>📋 What to Pack Daily</h3><ul><li>Textbooks needed for the day</li><li>Notebooks and folders</li><li>Pencil case</li><li>Laptop or tablet (if needed)</li><li>Water bottle</li><li>Lunch or snack</li></ul><h3>📦 How to Pack — The Layer Method</h3><ul><li><strong>Layer 1 (Bottom): Heavy Items</strong> — textbooks at the bottom, closest to your back</li><li><strong>Layer 2 (Middle): Medium Items</strong> — binders, notebooks, folders</li><li><strong>Layer 3 (Top): Light Items</strong> — lunch, jacket, light items</li><li><strong>Small Compartments:</strong> Pencil case, calculator, phone, keys, wallet</li></ul>",
       "theory_images": [],
       "image": null,
@@ -1660,18 +1506,7 @@
     }
   },
   {
-    "model": "game.lesson",
-    "pk": 15,
-    "fields": {
-      "title": "How to Make Instant Noodles Better",
-      "description": "Upgrade basic instant noodles with simple additions. Cheap, fast, and actually delicious.",
-      "category": 3,
-      "lesson_type": "theory",
-      "difficulty": "beginner",
-      "age_min": 10,
-      "age_max": 25,
-      "duration": 10,
-      "coins": 40,
+    $130,
       "theory_content": "<h2>🍜 How to Make Instant Noodles Better</h2><p>Instant noodles are cheap and fast, but they can be boring. With a few simple additions, you can turn them into a real meal.</p><h3>🥚 Easy Add-Ins</h3><ul><li><strong>Egg:</strong> Crack an egg into the noodles during the last minute of cooking</li><li><strong>Frozen vegetables:</strong> Peas, corn, carrots</li><li><strong>Green onions:</strong> Chop and sprinkle on top</li><li><strong>Soy sauce:</strong> A splash adds depth</li><li><strong>Sesame oil:</strong> A few drops for nutty flavor</li><li><strong>Hot sauce:</strong> Sriracha, chili oil</li></ul><h3>🍳 Perfect Egg in Noodles</h3><ol><li>Cook noodles according to package</li><li>During the last minute, crack an egg directly into the pot</li><li>Don't stir — let egg poach for 1-2 minutes</li><li>Serve with runny yolk</li></ol><h3>🍲 Broth Upgrades</h3><ul><li>Use half the seasoning packet (less sodium)</li><li>Add a spoonful of peanut butter for creamy Thai-style broth</li><li>Splash of milk or coconut milk for creamy broth</li><li>Rice vinegar or lime juice for tang</li></ul>",
       "theory_images": [],
       "image": null,
@@ -1695,18 +1530,7 @@
     }
   },
   {
-    "model": "game.lesson",
-    "pk": 16,
-    "fields": {
-      "title": "How to Tie Your Shoes (Different Methods)",
-      "description": "Learn multiple ways to tie your shoes — the standard method, the faster method, and the method that stays tied longer.",
-      "category": 4,
-      "lesson_type": "theory",
-      "difficulty": "beginner",
-      "age_min": 5,
-      "age_max": 25,
-      "duration": 10,
-      "coins": 40,
+    $130,
       "theory_content": "<h2>👟 How to Tie Your Shoes (Different Methods)</h2><p>Most people learn one way to tie shoes. But there are multiple methods — some faster, some stronger, some easier for kids. Learn them all!</p><h3>🎀 Method 1: Standard Bunny Ears</h3><ol><li>Cross the laces and pull tight</li><li>Make a loop with each lace</li><li>Cross the loops</li><li>Pull one loop through the hole</li><li>Pull both loops tight</li></ol><h3>⚡ Method 2: Standard Knot (Fastest)</h3><ol><li>Cross the laces and pull tight</li><li>Make a loop with one lace</li><li>Wrap the other lace around the loop</li><li>Pull the second lace through the hole</li><li>Pull both loops tight</li></ol><h3>🔒 Method 3: Double Knot (Stays Tied Longest)</h3><ol><li>Tie a standard knot</li><li>Tie another knot on top</li><li>Pull tight</li></ol>",
       "theory_images": [],
       "image": null,
@@ -1730,18 +1554,7 @@
     }
   },
   {
-    "model": "game.lesson",
-    "pk": 17,
-    "fields": {
-      "title": "How to Introduce Yourself",
-      "description": "Learn to introduce yourself confidently in any situation — school, jobs, or social events.",
-      "category": 1,
-      "lesson_type": "theory",
-      "difficulty": "beginner",
-      "age_min": 8,
-      "age_max": 25,
-      "duration": 15,
-      "coins": 50,
+    $130,
       "theory_content": "<h2>👋 How to Introduce Yourself</h2><p>Introducing yourself can feel awkward, but it's a skill anyone can learn. A good introduction makes a positive first impression and starts conversations.</p><h3>📝 The Formula for Any Introduction</h3><p><strong>Hello + Name + Something About You + Question</strong></p><p>Example: Hi, I'm Alex. I'm in Mr. Chen's biology class. What class are you in?</p><h3>🎯 For Different Situations</h3><ul><li><strong>School / New Class:</strong> Hi, I'm [Name]. I just moved here. What's your name?</li><li><strong>Job Interview:</strong> Hello, I'm [Name]. It's nice to meet you. I've been working on [skill] for the past two years.</li><li><strong>Party / Social Event:</strong> Hey, I'm [Name]. How do you know the host?</li></ul><h3>💡 Body Language Tips</h3><ul><li>Make eye contact</li><li>Smile naturally</li><li>Stand up straight</li><li>Offer a handshake (in professional settings)</li><li>Speak clearly</li></ul>",
       "theory_images": [],
       "image": null,
@@ -1765,18 +1578,7 @@
     }
   },
   {
-    "model": "game.lesson",
-    "pk": 18,
-    "fields": {
-      "title": "How to Read a Clock",
-      "description": "Learn to read analog and digital clocks. Tell time confidently for school, appointments, and daily life.",
-      "category": 4,
-      "lesson_type": "theory",
-      "difficulty": "beginner",
-      "age_min": 6,
-      "age_max": 25,
-      "duration": 15,
-      "coins": 50,
+    $130,
       "theory_content": "<h2>⏰ How to Read a Clock</h2><p>Knowing how to read a clock is an essential life skill. While phones show digital time, analog clocks are everywhere — schools, offices, train stations.</p><h3>🕰️ Parts of an Analog Clock</h3><ul><li><strong>Hour hand (short hand):</strong> Tells the hour</li><li><strong>Minute hand (long hand):</strong> Tells the minutes</li><li><strong>Second hand (thin hand):</strong> Tells seconds</li><li><strong>Numbers 1-12:</strong> Mark the hours</li><li><strong>Tick marks:</strong> Small lines between numbers for minutes</li></ul><h3>📖 How to Read the Hour</h3><p>The hour hand is the short hand. If it points exactly at 3 → it's 3 o'clock. If it's between 3 and 4 → it's still 3 something.</p><h3>🔢 How to Read the Minutes</h3><p>Each number represents 5 minutes: 12=0, 1=5, 2=10, 3=15, 4=20, 5=25, 6=30, 7=35, 8=40, 9=45, 10=50, 11=55.</p><h3>📝 Examples</h3><ul><li>Short hand at 3, long hand at 12 → 3:00</li><li>Short hand at 3, long hand at 6 → 3:30</li><li>Short hand at 3, long hand at 9 → 3:45</li></ul>",
       "theory_images": [],
       "image": null,
@@ -1800,18 +1602,7 @@
     }
   },
   {
-    "model": "game.lesson",
-    "pk": 19,
-    "fields": {
-      "title": "How to Use a Broom and Dustpan",
-      "description": "Learn proper sweeping technique to clean floors efficiently. A basic cleaning skill everyone should know.",
-      "category": 4,
-      "lesson_type": "theory",
-      "difficulty": "beginner",
-      "age_min": 6,
-      "age_max": 25,
-      "duration": 10,
-      "coins": 40,
+    $130,
       "theory_content": "<h2>🧹 How to Use a Broom and Dustpan</h2><p>Sweeping seems simple, but doing it right makes cleaning faster and more effective. Learn proper technique.</p><h3>🛠️ What You'll Need</h3><ul><li>Broom</li><li>Dustpan</li><li>Trash can</li></ul><h3>📋 Step-by-Step</h3><ol><li>Clear the floor of large items</li><li>Start at one corner of the room</li><li>Sweep in long, even strokes toward you</li><li>Work from corners toward the center</li><li>Sweep dirt into a pile in one spot</li><li>Position dustpan flat on floor</li><li>Sweep dirt into dustpan</li><li>Empty dustpan into trash</li></ol><h3>💡 Pro Tips</h3><ul><li>Sweep toward you, not away</li><li>Use short strokes for corners</li><li>Dampen broom slightly to catch fine dust</li><li>Sweep in one direction, not back and forth</li></ul>",
       "theory_images": [],
       "image": null,
@@ -1835,18 +1626,7 @@
     }
   },
   {
-    "model": "game.lesson",
-    "pk": 20,
-    "fields": {
-      "title": "How to Make a Phone Call",
-      "description": "Learn to make phone calls confidently — for appointments, ordering food, or calling friends.",
-      "category": 4,
-      "lesson_type": "theory",
-      "difficulty": "beginner",
-      "age_min": 8,
-      "age_max": 25,
-      "duration": 15,
-      "coins": 50,
+    $130,
       "theory_content": "<h2>📞 How to Make a Phone Call</h2><p>Phone calls can feel intimidating, but they're an important skill. With practice, anyone can learn to call confidently.</p><h3>📝 Before You Call</h3><ul><li>Know why you're calling</li><li>Have pen and paper ready to write notes</li><li>Find a quiet place</li><li>Take a deep breath</li></ul><h3>🗣️ The Call Structure</h3><ul><li><strong>Greeting:</strong> Hello, this is [Your Name].</li><li><strong>State Your Purpose:</strong> I'm calling to make an appointment. or I have a question about...</li><li><strong>Conversation:</strong> Listen and respond. Ask questions if needed.</li><li><strong>Closing:</strong> Thank you. Have a good day. Goodbye.</li></ul><h3>📱 Example Scripts</h3><ul><li><strong>Calling a friend:</strong> Hey Sarah, it's Alex. What are you doing Saturday?</li><li><strong>Calling a doctor's office:</strong> Hello, this is Taylor Jones. I need to make an appointment.</li><li><strong>Calling to order food:</strong> Hi, I'd like to place an order for pickup.</li></ul>",
       "theory_images": [],
       "image": null,
@@ -1867,6 +1647,711 @@
       "is_active": true,
       "created_at": "2026-06-27T00:00:00Z","updated_at": "2026-06-27T00:00:00Z"
 
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 21,
+    "fields": {
+      "title": "How to Do Laundry",
+      "description": "Learn to sort, wash, dry, and fold clothes correctly. Keep your clothes looking good and lasting longer.",
+      "category": 4,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 10,
+      "age_max": 25,
+      "duration": 20,
+      "coins": 30,
+      "theory_content": "<h2>🧺 How to Do Laundry</h2><p>Doing laundry is an essential life skill that everyone needs to learn. Once you understand the basics, it's easy and takes very little time. This lesson will teach you everything you need to know — from sorting to folding.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: washing machine with clothes]\" alt=\"Laundry\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">Laundry is easier than you think</p></div><hr><h3>👕 Step 1: Sort Your Laundry</h3><p>Sorting is the most important step. It prevents color bleeding and ensures clothes are washed correctly.</p><ul><li><strong>Whites</strong> — white shirts, socks, underwear, towels (wash in hot water)</li><li><strong>Darks</strong> — black, navy, dark gray, dark brown (wash in cold water)</li><li><strong>Colors</strong> — red, blue, green, bright colors (wash in warm or cold water)</li><li><strong>Delicates</strong> — lace, silk, bras, thin fabrics (use mesh bags, delicate cycle)</li><li><strong>Towels & Heavy</strong> — bath towels, jeans, hoodies (wash separately, use warm water)</li></ul><p><strong>Why sort?</strong> Dark colors can bleed dye onto whites and ruin them forever. Different fabrics also need different washing settings to avoid damage.</p><hr><h3>🏷️ Step 2: Check Care Labels</h3><p>Every clothing item has a tag with care symbols. This is your guide to proper washing. Look for:</p><ul><li>🌡️ <strong>Temperature</strong> — cold, warm, hot (shown as dots in a water bucket)</li><li>🌀 <strong>Cycle</strong> — normal, delicate, hand wash (shown as lines under the bucket)</li><li>❌ <strong>Do Not Wash</strong> — dry clean only (circle symbol)</li><li>🧴 <strong>Bleach</strong> — triangle means safe, triangle with X means no bleach</li><li>🌀 <strong>Wring</strong> — twisted symbol means can be wrung, X means don't wring</li></ul><p><strong>If the label says \"Dry Clean Only\" — don't put it in the washing machine! Take it to a professional.</strong></p><hr><h3>🧴 Step 3: Add Detergent</h3><p>Detergent cleans your clothes. There are different types, and the right amount matters.</p><ul><li><strong>Liquid detergent:</strong> Pour into the measuring cap. Use the lines on the cap — one or two lines for a normal load. Pour into the detergent drawer or directly into the drum.</li><li><strong>Powder detergent:</strong> Use the scoop inside the box. Usually 1-2 tablespoons for a normal load. Put in the drum before clothes.</li><li><strong>Detergent pods:</strong> Use ONE pod per load. Place it in the drum BEFORE adding clothes — never in the drawer.</li><li><strong>How much is too much?</strong> Extra detergent doesn't clean better — it leaves residue on clothes, can irritate skin, and damages the machine.</li></ul><p><strong>Where to put it:</strong> Most machines have a drawer. If not, put detergent directly in the drum before adding clothes.</p><hr><h3>👕 Step 4: Load the Machine</h3><p>How you load matters for cleaning quality and machine health.</p><ul><li>✅ Fill loosely — about 3/4 full. You should be able to fit your hand flat on top of the clothes.</li><li>✅ Clothes need space to move around in the water and detergent to get clean.</li><li>✅ Put small items (socks, underwear) in a mesh laundry bag so they don't get lost.</li><li>✅ Turn jeans and dark clothes inside out to protect the color from fading.</li><li>✅ Zip up zippers and button buttons to prevent snags on other clothes.</li><li>✅ Empty ALL pockets — tissue paper will ruin everything and leave white flakes on all clothes!</li></ul><p><strong>Don't overload:</strong> If you can't fit your hand flat on top, the machine is too full and clothes won't get clean.</p><hr><h3>⚙️ Step 5: Choose Settings</h3><p>Different cycles do different things. Here's what each one means:</p><ul><li><strong>🌀 Normal / Cotton</strong> — everyday clothes, t-shirts, jeans, towels, sheets. Uses warm water and stronger agitation.</li><li><strong>🌸 Delicate / Hand Wash</strong> — silk, lace, thin fabrics, bras. Uses cold water and gentle movement.</li><li><strong>⚡ Quick Wash (30 min)</strong> — lightly soiled clothes that aren't very dirty. Uses less water and time.</li><li><strong>❄️ Cold Wash</strong> — dark colors, prevents shrinking, saves energy. Best for most everyday clothes.</li><li><strong>🔥 Hot Wash (60°C+)</strong> — towels, bed sheets, underwear, heavily soiled items. Kills bacteria but can shrink clothes.</li><li><strong>🌀 Rinse & Spin</strong> — just rinses and spins out water. Use if you forgot to add detergent.</li></ul><p><strong>Quick guide:</strong></p><ul><li>👕 Everyday clothes → Normal cycle, cold water</li><li>🛏️ Sheets and towels → Normal cycle, warm/hot water</li><li>👖 Jeans → Normal cycle, cold water, inside out</li><li>🌸 Delicate fabrics → Delicate cycle, cold water</li></ul><hr><h3>🌬️ Step 6: Drying</h3><p>Proper drying prevents wrinkles, shrinking, and mildew.</p><ul><li><strong>Machine drying:</strong> Use low or medium heat for most clothes — high heat shrinks things! Remove clothes promptly to prevent wrinkles. Clean the lint filter EVERY time — it prevents fires!</li><li><strong>Air drying (better for clothes):</strong> Hang on a drying rack or clothesline. Air-dry delicate items, jeans, and anything with elastic. Drying racks save energy and make clothes last longer.</li><li><strong>Never put in dryer:</strong> Wool, silk, bras with underwire, items with prints or iron-on transfers.</li></ul><hr><h3>📦 Step 7: Folding and Putting Away</h3><ul><li>Fold clothes as soon as they're dry — prevents wrinkles</li><li>Put items away in drawers or closet immediately</li><li>Match socks as you fold — pair them up</li><li>Hang items that wrinkle easily (dresses, button shirts, blazers)</li></ul><hr><h3>🧼 How Often to Wash Different Items</h3><ul><li>👕 T-shirts, underwear, socks — after every wear</li><li>👖 Jeans — every 3-5 wears (unless visibly dirty)</li><li>🧥 Sweaters — every 3-5 wears</li><li>🛏️ Sheets and towels — weekly</li><li>🧥 Jackets — once a season or when dirty</li><li>👙 Bras — every 3-4 wears</li></ul><hr><h3>🧴 Stain Removal Quick Guide</h3><ul><li>🍅 <strong>Food stains:</strong> Rinse with cold water immediately, then treat with stain remover</li><li>🌿 <strong>Grass:</strong> Rub with liquid detergent, wash in cold water</li><li>🩸 <strong>Blood:</strong> COLD water only (hot sets the stain), rub with soap</li><li>💄 <strong>Makeup:</strong> Rub with shaving cream or makeup remover, then wash</li><li>🖊️ <strong>Ink:</strong> Rub with rubbing alcohol or hand sanitizer before washing</li></ul><p><strong>Never put a stained item in the dryer until the stain is gone — heat sets stains permanently!</strong></p><hr><h3>🧹 Cleaning Your Washing Machine</h3><p>Your machine needs cleaning too! Do this every 1-3 months:</p><ol><li>Run an empty cycle with HOT water</li><li>Add 2 cups of white vinegar OR a washing machine cleaner tablet</li><li>After the cycle, wipe inside the drum and rubber seal with a dry cloth</li><li>Leave the door open to air dry</li></ol><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about laundry. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "Why should you sort laundry before washing?", "options": ["It takes less time", "Dark colors can bleed onto white clothes", "The machine works better", "It saves water"], "correct": 1, "explanation": "Dark colors can transfer dye to light clothes, ruining them."},
+          {"text": "What temperature is best for dark clothes?", "options": ["Hot", "Warm", "Cold", "Boiling"], "correct": 2, "explanation": "Cold water prevents fading and color bleeding."},
+          {"text": "How full should you fill the washing machine?", "options": ["Pack it completely full", "Fill loosely, about 3/4 full", "Only 2-3 items", "Fill to the very top"], "correct": 1, "explanation": "Clothes need space to move around in the water to get clean."},
+          {"text": "What should you always clean before drying?", "options": ["The dryer door", "The lint filter", "The washing machine", "The detergent drawer"], "correct": 1, "explanation": "Clean the lint filter before EVERY load — it prevents fires and helps clothes dry faster."},
+          {"text": "What does 'Dry Clean Only' mean?", "options": ["Wash in hot water", "Wash in cold water", "Don't put in washing machine — take to dry cleaner", "Air dry only"], "correct": 2, "explanation": "'Dry Clean Only' means the item cannot be machine washed — take it to a professional dry cleaner."},
+          {"text": "What should you do with a stain BEFORE putting it in the dryer?", "options": ["Ignore it", "Make sure the stain is completely gone", "Add more detergent", "Wash again"], "correct": 1, "explanation": "Heat from the dryer sets stains permanently. Only dry when the stain is gone."},
+          {"text": "Where should you put laundry pods?", "options": ["In the detergent drawer", "In the fabric softener compartment", "In the drum BEFORE adding clothes", "On top of clothes"], "correct": 2, "explanation": "Pods go directly in the drum before you add clothes so they dissolve properly."},
+          {"text": "How often should you wash sheets and towels?", "options": ["Monthly", "Every 3 months", "Weekly", "Yearly"], "correct": 2, "explanation": "Sheets and towels collect bacteria and body oils — wash them weekly."},
+          {"text": "How often should you clean your washing machine?", "options": ["Never", "Once a year", "Every 1-3 months", "Every day"], "correct": 2, "explanation": "Run an empty hot cycle with vinegar every 1-3 months to remove buildup and odors."},
+          {"text": "What should you do with small items like socks?", "options": ["Put them in a mesh laundry bag", "Throw them in loose", "Don't wash them at all", "Tie them together"], "correct": 0, "explanation": "Small items can get lost or stuck. A mesh bag keeps them together and prevents them from slipping between the drum and door."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 22,
+    "fields": {
+      "title": "How to Set a Table",
+      "description": "Learn proper table setting for everyday meals and special occasions. Impress your family and guests.",
+      "category": 4,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 8,
+      "age_max": 25,
+      "duration": 15,
+      "coins": 30,
+      "theory_content": "<h2>🍽️ How to Set a Table</h2><p>Knowing how to set a table is a valuable skill for family dinners, holidays, and when guests come over. A properly set table shows care and makes everyone feel welcome.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: properly set dinner table]\" alt=\"Set table\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">A set table makes meals feel special</p></div><hr><h3>🍽️ Everyday Setting (What You Use Most)</h3><ul><li><strong>Plate:</strong> In the center of the place setting</li><li><strong>Fork:</strong> Left side of plate</li><li><strong>Knife:</strong> Right side of plate (blade facing the plate)</li><li><strong>Spoon:</strong> Right side next to knife</li><li><strong>Drink:</strong> Above the knife (right side)</li><li><strong>Napkin:</strong> Left side of forks OR on top of the plate</li></ul><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: diagram of everyday table setting]\" alt=\"Everyday table setting\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">Fork left, knife and spoon right</p></div><hr><h3>🎄 Formal Setting (For Holidays and Special Occasions)</h3><ul><li><strong>Dinner plate:</strong> Center</li><li><strong>Salad plate:</strong> Above dinner plate</li><li><strong>Bread plate:</strong> Above forks (top left)</li><li><strong>Butter knife:</strong> On the bread plate</li><li><strong>Forks:</strong> Left side — dinner fork closest to plate, salad fork outside, fish fork farthest (if used)</li><li><strong>Knives:</strong> Right side — dinner knife closest to plate, then fish knife, then steak knife (if used)</li><li><strong>Spoons:</strong> Right side next to knives — soup spoon outside</li><li><strong>Drink glasses:</strong> Above knives — water glass closest, then wine glass, then other drinks</li><li><strong>Napkin:</strong> On the dinner plate OR folded to the left of forks</li></ul><hr><h3>💡 Memory Tricks</h3><ul><li><strong>FORK and LEFT both have 4 letters</strong> → fork goes on the left</li><li><strong>KNIFE and RIGHT both have 5 letters</strong> → knife goes on the right</li><li><strong>SPOON goes next to knife</strong> on the right</li><li><strong>Drinks on the RIGHT</strong> — your right hand holds the drink</li></ul><hr><h3>📝 Utensil Order Rule</h3><p>Use utensils from the OUTSIDE IN. The outermost fork or spoon is for the first course. Work your way toward the plate as courses progress.</p><hr><h3>💡 Pro Tips</h3><ul><li>✅ Knife blade always faces the plate</li><li>✅ Napkin goes on the lap when sitting down</li><li>✅ Water glass sits above the knife</li><li>✅ Leave about 1 inch between plate and utensils</li><li>✅ All place settings should match — same distance from plate edge</li><li>✅ Forks and knives should be aligned at the bottom edge</li><li>✅ Spoons are placed with the bowl facing up</li></ul><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about table setting. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "Where does the fork go in an everyday table setting?", "options": ["Right side of plate", "Left side of plate", "Above the plate", "On the plate"], "correct": 1, "explanation": "Fork goes on the left side of the plate."},
+          {"text": "What's a memory trick to remember fork placement?", "options": ["Fork has 4 letters, LEFT has 4 letters", "Fork starts with F", "Fork is sharp", "Fork goes anywhere"], "correct": 0, "explanation": "Both FORK and LEFT have 4 letters — fork goes on left."},
+          {"text": "Which way does the knife blade face?", "options": ["Away from plate", "Toward the plate", "Upward", "Downward"], "correct": 1, "explanation": "Knife blade always faces the plate."},
+          {"text": "In a formal setting, what goes above the forks?", "options": ["Spoon", "Bread plate", "Knife", "Drink"], "correct": 1, "explanation": "Bread plate goes above the forks (top left)."},
+          {"text": "What is the rule for using utensils in a formal setting?", "options": ["Inside out", "Outside in", "Any order", "Use only one"], "correct": 1, "explanation": "Use utensils from the outside in — outermost for first course."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 23,
+    "fields": {
+      "title": "How to Make a Bed",
+      "description": "Learn to make your bed quickly and neatly. A simple habit that improves your whole day.",
+      "category": 4,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 6,
+      "age_max": 25,
+      "duration": 10,
+      "coins": 30,
+      "theory_content": "<h2>🛏️ How to Make a Bed</h2><p>Making your bed every morning takes less than 2 minutes but makes your whole room look better and starts your day with a small win. Admiral William McRaven said: \"If you make your bed every morning, you will have accomplished the first task of the day. It will give you a small sense of pride, and it will encourage you to do another task.\"</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: neatly made bed with pillows]\" alt=\"Made bed\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">A made bed changes the whole room</p></div><hr><h3>📋 What You'll Need</h3><ul><li>Fitted sheet</li><li>Flat sheet</li><li>Blanket or comforter</li><li>Pillows with pillowcases</li></ul><hr><h3>📝 Step-by-Step Instructions</h3><h4>Step 1: Remove Old Sheets</h4><p>Take off all old sheets and pillowcases. Put them in the laundry basket.</p><h4>Step 2: Put on Fitted Sheet</h4><p>The fitted sheet has elastic corners. Stretch it over the mattress corners one by one. Make sure it's snug and smooth.</p><h4>Step 3: Put on Flat Sheet</h4><p>Lay the flat sheet over the bed. The top edge should align with the top of the mattress. The pattern side faces DOWN so the pattern shows when folded over.</p><h4>Step 4: Make Hospital Corners</h4><p>This technique keeps sheets tight and neat:</p><ol><li>Tuck the bottom edge of the sheet under the mattress at the foot of the bed</li><li>Lift the side edge of the sheet about 12 inches from the corner</li><li>Fold it into a triangle</li><li>Tuck the hanging part under the mattress</li><li>Fold the triangle down and tuck it under the mattress</li><li>Repeat on both sides</li></ol><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: hospital corners step by step]\" alt=\"Hospital corners\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">Hospital corners keep sheets tight</p></div><h4>Step 5: Add Blanket</h4><p>Lay the blanket on top of the flat sheet. Fold the top edge of both the blanket and flat sheet down about 6 inches.</p><h4>Step 6: Fluff and Place Pillows</h4><p>Put pillowcases on pillows. Fluff them by holding them on opposite ends and pushing them together. Place them at the head of the bed.</p><h4>Step 7: Add Decorative Touches (Optional)</h4><p>Add throw pillows, a folded blanket at the foot, or a bed runner for extra style.</p><hr><h3>⚡ The 60-Second Version</h3><p>In a rush? Just pull up your comforter and fluff your pillows. Still looks 80% better!</p><hr><h3>💡 Pro Tips</h3><ul><li>✅ Make bed as soon as you get up — before you forget</li><li>✅ Keep extra pillowcases in your nightstand for quick changes</li><li>✅ Wash sheets weekly to keep them fresh</li><li>✅ Rotate your mattress every 6 months for even wear</li><li>✅ Use a mattress protector to prevent stains and extend mattress life</li></ul><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about making a bed. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "What is the first step in making a bed?", "options": ["Put on pillows", "Remove old sheets", "Add blanket", "Make hospital corners"], "correct": 1, "explanation": "Always remove old sheets first and put them in the laundry."},
+          {"text": "Which sheet has elastic corners?", "options": ["Flat sheet", "Fitted sheet", "Top sheet", "Blanket"], "correct": 1, "explanation": "The fitted sheet has elastic corners that stretch over the mattress."},
+          {"text": "What are hospital corners?", "options": ["Corners that go to the hospital", "A folding technique that keeps sheets tight", "Pillow placement", "Blanket folding"], "correct": 1, "explanation": "Hospital corners are a folding technique that keeps sheets tight and neat."},
+          {"text": "How often should you wash sheets?", "options": ["Monthly", "Weekly", "Yearly", "Never"], "correct": 1, "explanation": "Wash sheets weekly to remove sweat, oil, and dust mites."},
+          {"text": "What's the 60-second version of making a bed?", "options": ["Do nothing", "Pull up comforter and fluff pillows", "Change all sheets", "Vacuum the bed"], "correct": 1, "explanation": "In a rush, just pull up your comforter and fluff pillows — still looks much better."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 24,
+    "fields": {
+      "title": "How to Use a Fire Extinguisher (PASS Method)",
+      "description": "Learn the PASS method to use a fire extinguisher safely. This knowledge could save lives.",
+      "category": 4,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 10,
+      "age_max": 25,
+      "duration": 10,
+      "coins": 30,
+      "theory_content": "<h2>🧯 How to Use a Fire Extinguisher (PASS Method)</h2><p>Knowing how to use a fire extinguisher could save lives. The PASS method is easy to remember and works on most small fires. Every second counts in a fire emergency — knowing what to do can make all the difference.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: fire extinguisher on wall with label]\" alt=\"Fire extinguisher\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">Know where your extinguisher is located</p></div><hr><h3>⚠️ BEFORE YOU USE AN EXTINGUISHER</h3><ul><li>✅ Make sure everyone has left the building</li><li>✅ Call emergency services FIRST (you can always cancel them)</li><li>✅ Only fight small fires — if it's bigger than a small trash can, GET OUT</li><li>✅ Make sure you have a clear exit behind you</li><li>✅ Check that the extinguisher is the right type for the fire</li></ul><hr><h3>📝 The PASS Method (4 Steps)</h3><h4>P — PULL the pin</h4><p>Pull the pin at the top of the extinguisher. This breaks the tamper seal and allows you to discharge the extinguisher.</p><h4>A — AIM low</h4><p>Aim the nozzle or hose at the BASE of the fire, not the flames. Aiming at the flames is the most common mistake people make.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: aiming fire extinguisher at base of fire]\" alt=\"Aim at base of fire\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">Aim at the base, not the flames</p></div><h4>S — SQUEEZE the handle</h4><p>Squeeze the handle slowly and evenly. Release to stop the flow of extinguishing agent. Squeezing too hard can cause you to lose control.</p><h4>S — SWEEP side to side</h4><p>Sweep the nozzle from side to side across the base of the fire until it's completely out. If the fire flares up again, repeat the process.</p><hr><h3>🔥 Types of Fire Extinguishers</h3><ul><li><strong>Class A:</strong> Wood, paper, cloth, plastic (green triangle) — most common household fires</li><li><strong>Class B:</strong> Flammable liquids like gasoline, oil, grease (red square)</li><li><strong>Class C:</strong> Electrical fires (blue circle) — NEVER use water on electrical fires</li><li><strong>Class D:</strong> Metal fires (yellow star) — rare, for industrial use</li><li><strong>Class K:</strong> Kitchen grease fires (black hexagon) — for commercial kitchens</li><li><strong>ABC:</strong> Multipurpose — most common for home use, covers A, B, and C</li></ul><hr><h3>🚫 When NOT to Use an Extinguisher</h3><ul><li>❌ Fire is larger than a small trash can</li><li>❌ Room is filling with smoke</li><li>❌ You don't have a clear exit behind you</li><li>❌ You haven't called emergency services</li><li>❌ You're not trained or confident in using the extinguisher</li><li>❌ The extinguisher is damaged or the gauge shows it's not charged</li></ul><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: person escaping building fire]\" alt=\"Get out\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">If the fire is big — GET OUT</p></div><hr><h3>💡 Pro Tips</h3><ul><li>✅ Check extinguisher gauge monthly — needle should be in GREEN zone</li><li>✅ Replace extinguisher after use (even if not completely empty)</li><li>✅ Know where extinguishers are in your home and school</li><li>✅ Practice the PASS method mentally so it's automatic in an emergency</li><li>✅ Make sure everyone in your family knows where the extinguisher is kept</li></ul><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about using a fire extinguisher. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "What does the 'P' in PASS stand for?", "options": ["Push", "Pull the pin", "Press", "Point"], "correct": 1, "explanation": "P stands for Pull the pin to break the tamper seal."},
+          {"text": "Where should you aim the extinguisher?", "options": ["At the flames", "At the base of the fire", "At the ceiling", "At the wall"], "correct": 1, "explanation": "Always aim at the BASE of the fire, not the flames."},
+          {"text": "What should you do before using an extinguisher?", "options": ["Start fighting immediately", "Call emergency services first", "Open windows", "Turn on lights"], "correct": 1, "explanation": "Call emergency services first. You can always cancel if you put out the fire."},
+          {"text": "What does 'S' in PASS stand for (second S)?", "options": ["Stop", "Sweep side to side", "Spray", "Shout"], "correct": 1, "explanation": "The second S stands for Sweep side to side across the base of the fire."},
+          {"text": "When should you NOT use an extinguisher?", "options": ["Small trash can fire", "Fire larger than a small trash can", "Grease fire in pan", "Electrical fire"], "correct": 1, "explanation": "If fire is larger than a small trash can, get out immediately."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 25,
+    "fields": {
+      "title": "How to Wrap a Gift",
+      "description": "Learn to wrap presents neatly with minimal waste. Impress friends and family with your wrapping skills.",
+      "category": 4,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 8,
+      "age_max": 25,
+      "duration": 15,
+      "coins": 30,
+      "theory_content": "<h2>🎁 How to Wrap a Gift</h2><p>A nicely wrapped gift shows you care. The presentation is part of the gift itself. Learn the technique for neat corners and minimal tape — your gifts will look like they came from a store!</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: beautifully wrapped gift with bow]\" alt=\"Wrapped gift\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">Presentation matters</p></div><hr><h3>📦 What You'll Need</h3><ul><li>Wrapping paper (enough to cover your gift with overlap)</li><li>Scissors (sharp ones work best)</li><li>Tape (double-sided tape hides seams better)</li><li>Gift box or item to wrap</li><li>Ribbon (optional — adds extra flair)</li><li>Gift tag (to say who it's for and from)</li></ul><hr><h3>📝 Step-by-Step Instructions</h3><h4>Step 1: Measure Paper</h4><p>Roll out the wrapping paper and place the gift diagonally on it (corner to corner works best for boxes). The paper should wrap around with 1-2 inches of overlap on each side. For the ends, paper should reach about halfway up the sides of the box.</p><h4>Step 2: Cut Paper</h4><p>Cut along the edge with a straight line. Use the grid lines on the back of most wrapping paper for a straight cut. Clean edges make a clean result.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: measuring wrapping paper around gift]\" alt=\"Measuring paper\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">Measure twice, cut once</p></div><h4>Step 3: Wrap Around</h4><p>Bring one side of the paper over the gift. Tape it in the middle. Bring the other side over and tape it — making sure both sides overlap evenly. Use double-sided tape for a cleaner look.</p><h4>Step 4: Fold Ends (The Neat Way)</h4><ol><li>Push in the sides to create triangles — this creates the classic folded ends</li><li>Fold the top triangle down flat against the box</li><li>Fold the bottom triangle up over the top triangle</li><li>Tape in place (tape goes on the inside of the fold to hide it)</li><li>Repeat on the other end</li></ol><h4>Step 5: Add Ribbon (Optional)</h4><p>Wrap ribbon around the gift in both directions (like a cross). Tie a bow on top. You can curl the ribbon tails by pulling the ribbon across the edge of scissors.</p><h4>Step 6: Add a Gift Tag</h4><p>Write \"To: [Name]\" and \"From: [Your Name]\" on the tag. Attach it to the ribbon or tape it to the gift.</p><hr><h3>💡 Pro Tips</h3><ul><li>✅ Use double-sided tape for hidden seams</li><li>✅ Crease edges with your fingernail for sharp corners</li><li>✅ Save boxes (shoe boxes, Amazon boxes) for wrapping odd-shaped items</li><li>✅ For odd shapes, put in a box first — it's much easier</li><li>✅ Use brown paper or newspaper for eco-friendly wrapping</li><li>✅ Add a sprig of pine, a cinnamon stick, or a dried orange slice for natural decoration</li></ul><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about gift wrapping. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "What is the first step in wrapping a gift?", "options": ["Cut paper", "Measure paper around gift", "Add tape", "Fold ends"], "correct": 1, "explanation": "First, measure how much paper you need by wrapping it around the gift."},
+          {"text": "How much overlap should wrapping paper have?", "options": ["5-6 inches", "1-2 inches", "No overlap", "Half the gift"], "correct": 1, "explanation": "Paper should overlap by 1-2 inches for secure taping."},
+          {"text": "What's the best way to handle odd-shaped gifts?", "options": ["Wrap as is", "Put in a box first", "Use more paper", "Don't wrap them"], "correct": 1, "explanation": "Put odd-shaped gifts in a box first, then wrap the box."},
+          {"text": "What makes sharp corners when wrapping?", "options": ["Wet paper", "Creasing edges with fingernail", "More tape", "Less paper"], "correct": 1, "explanation": "Creasing edges with your fingernail creates sharp, neat corners."},
+          {"text": "What should you include on the gift tag?", "options": ["Price", "To and From", "Only your name", "Only their name"], "correct": 1, "explanation": "Write 'To: [Name]' and 'From: [Your Name]' on the gift tag."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 26,
+    "fields": {
+      "title": "How to Take Care of a Phone Battery",
+      "description": "Learn to extend your phone battery life and make it last longer. Simple habits that save money and frustration.",
+      "category": 4,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 10,
+      "age_max": 25,
+      "duration": 10,
+      "coins": 30,
+      "theory_content": "<h2>🔋 How to Take Care of a Phone Battery</h2><p>Phone batteries don't last forever, but good habits can make them last years longer. Learn the science of battery care and save yourself the cost and hassle of replacing your phone too soon.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: phone showing battery percentage]\" alt=\"Phone battery\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">Small habits = longer battery life</p></div><hr><h3>⚡ DO's for Battery Health</h3><ul><li>✅ Keep battery between <strong>20% and 80%</strong> — this is the sweet spot for lithium-ion batteries</li><li>✅ <strong>Charge in short bursts</strong> throughout the day rather than one long charge</li><li>✅ <strong>Use the charger</strong> that came with your phone or a certified replacement</li><li>✅ <strong>Remove the phone case</strong> while charging (heat damages battery, and cases trap heat)</li><li>✅ <strong>Update your phone software</strong> — updates include battery optimizations</li><li>✅ <strong>Use dark mode</strong> on OLED screens to save power</li></ul><hr><h3>❌ DON'Ts for Battery Health</h3><ul><li>❌ Don't let battery drop to 0% regularly (deep discharges stress the battery)</li><li>❌ Don't leave phone at 100% plugged in overnight every night (keeps battery stressed at maximum voltage)</li><li>❌ Don't use your phone while it's charging (generates extra heat)</li><li>❌ Don't leave phone in a hot car (heat kills batteries faster than anything)</li><li>❌ Don't use cheap knock-off chargers (they can damage battery and phone)</li><li>❌ Don't charge to 100% every single time (80% is better for daily use)</li></ul><hr><h3>📱 Settings That Save Battery</h3><ul><li><strong>Lower screen brightness</strong> — screen uses the most battery, turn it down</li><li><strong>Turn off Bluetooth and Wi-Fi</strong> when not using them</li><li><strong>Turn off background app refresh</strong> for apps you don't need updating constantly</li><li><strong>Reduce screen timeout</strong> to 30 seconds or 1 minute</li><li><strong>Turn off push email</strong> — fetch manually instead</li><li><strong>Disable location services</strong> for apps that don't need it</li><li><strong>Turn off haptic feedback</strong> (vibrations use power)</li><li><strong>Use battery saver mode</strong> when battery is below 20%</li></ul><hr><h3>🔋 Myth Busting</h3><ul><li><strong>Myth:</strong> You must drain battery to 0% before charging</li><li><strong>Truth:</strong> This was true for old nickel-based batteries, NOT for modern lithium-ion batteries. Partial charges are actually better!</li><li><strong>Myth:</strong> Charging overnight destroys battery</li><li><strong>Truth:</strong> Modern phones stop charging at 100%, but staying at 100% for hours still causes some wear. It's better to unplug when charged.</li><li><strong>Myth:</strong> Closing apps saves battery</li><li><strong>Truth:</strong> Closing and reopening apps uses more battery than leaving them in memory.</li></ul><hr><h3>💡 When to Replace Your Battery</h3><ul><li>Phone dies at 20-30% battery (battery is failing)</li><li>Phone gets very hot during normal use</li><li>Battery drains twice as fast as before</li><li>Phone randomly shuts down with battery remaining</li><li>Battery is swollen (visible bulging) — stop using the phone immediately</li></ul><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about phone battery care. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "What is the ideal battery range for phone health?", "options": ["0-100%", "20-80%", "50-100%", "0-50%"], "correct": 1, "explanation": "Keeping battery between 20% and 80% extends its lifespan."},
+          {"text": "Is it bad to charge your phone overnight every night?", "options": ["No problem at all", "Yes, it causes some wear over time", "It's good for battery", "It makes battery last longer"], "correct": 1, "explanation": "Modern phones stop at 100%, but staying at 100% for hours still causes some wear."},
+          {"text": "What kills phone batteries the fastest?", "options": ["Cold", "Heat", "Humidity", "Low charge"], "correct": 1, "explanation": "Heat is the #1 enemy of phone batteries. Don't leave phones in hot cars."},
+          {"text": "Should you drain your phone to 0% before charging?", "options": ["Yes, always", "No, that's bad for modern batteries", "Only once a month", "Only for new phones"], "correct": 1, "explanation": "This was true for old batteries. Modern lithium-ion batteries prefer partial charges."},
+          {"text": "What phone setting saves the most battery?", "options": ["Lower screen brightness", "Turn off sound", "Use vibrate mode", "Close all apps"], "correct": 0, "explanation": "The screen uses the most battery — lower brightness makes a huge difference."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 27,
+    "fields": {
+      "title": "How to Say No Politely",
+      "description": "Learn to decline requests without feeling guilty. Setting boundaries is a sign of self-respect and emotional intelligence.",
+      "category": 1,
+      "lesson_type": "theory",
+      "difficulty": "intermediate",
+      "age_min": 12,
+      "age_max": 25,
+      "duration": 15,
+      "coins": 30,
+      "theory_content": "<h2>🗣️ How to Say No Politely</h2><p>Saying no can feel uncomfortable, but it's an essential life skill. You can say no without being rude or feeling guilty. Learning to set boundaries actually improves your relationships because people respect someone who knows their limits.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: person calmly saying no with hand gesture]\" alt=\"Saying no\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">No is a complete sentence</p></div><hr><h3>📝 5 Polite Ways to Say No</h3><h4>1. The Direct No</h4><p>\"No, thank you.\" — Simple, clear, polite. You don't need to explain your reasons. This is the most respectful way to say no because it's honest.</p><h4>2. The \"I Can't Right Now\" No</h4><p>\"I'd love to, but I can't right now. Maybe another time?\" — Leaves the door open for future possibilities and shows you value the relationship.</p><h4>3. The \"I Have Other Plans\" No</h4><p>\"Thanks for thinking of me, but I already have plans.\" — Your plans could be anything, including self-care. You don't need to specify.</p><h4>4. The \"Not Right for Me\" No</h4><p>\"That doesn't work for me, but thanks for asking.\" — Honest and respectful. It shows you considered it but made a decision.</p><h4>5. The \"Let Me Think About It\" No</h4><p>\"Let me check and get back to you.\" — Then later: \"Thanks for waiting, but I can't.\" This gives you time to think without feeling pressured.</p><hr><h3>💡 Why Saying No Is Important</h3><ul><li>✅ <strong>Protects your time and energy</strong> — you can't do everything</li><li>✅ <strong>Prevents burnout and resentment</strong> — saying yes to everything leads to exhaustion</li><li>✅ <strong>Allows you to say YES to what matters</strong> — when you say no to some things, you have space for what's truly important</li><li>✅ <strong>Shows self-respect</strong> — people treat you how you teach them to treat you</li><li>✅ <strong>People will respect you more, not less</strong> — they'll see you as someone who knows their own mind</li></ul><hr><h3>🚫 What If They Keep Asking?</h3><ul><li><strong>Repeat your no calmly:</strong> \"I already said no, thanks.\"</li><li><strong>Change the subject:</strong> \"Anyway, how was your weekend?\"</li><li><strong>Walk away:</strong> You don't have to stay in the conversation</li><li><strong>Remember:</strong> No is a complete sentence — you don't need to justify</li></ul><hr><h3>🗣️ Practice Scenarios</h3><p><strong>Friend asks to borrow money you can't lend:</strong><br>\"I'm sorry, I can't lend money right now.\"</p><p><strong>Someone asks for help when you're busy:</strong><br>\"I'd like to help, but I'm completely booked today.\"</p><p><strong>Invitation to something you don't want to attend:</strong><br>\"Thanks for the invite, but I won't be able to make it.\"</p><p><strong>Someone asks you to do something against your values:</strong><br>\"That's not something I'm comfortable with.\"</p><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about saying no politely. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "What is a polite way to say no?", "options": ["No, thank you", "Go away", "Maybe never", "I don't care"], "correct": 0, "explanation": "'No, thank you' is simple, clear, and polite."},
+          {"text": "Is it necessary to explain why you're saying no?", "options": ["Yes, always", "No, not required", "Only to friends", "Only to adults"], "correct": 1, "explanation": "You don't need to explain. 'No' is enough."},
+          {"text": "Why is saying no important?", "options": ["It's rude", "It protects your time and energy", "It makes people angry", "It's selfish"], "correct": 1, "explanation": "Saying no protects your time and prevents burnout."},
+          {"text": "What should you do if someone keeps asking after you said no?", "options": ["Give in", "Repeat your no calmly", "Get angry", "Ignore them forever"], "correct": 1, "explanation": "Calmly repeat your no: 'I already said no, thanks.'"},
+          {"text": "What can you say instead of a direct no?", "options": ["I'd love to but I can't right now", "Never in a million years", "No way", "Absolutely not"], "correct": 0, "explanation": "'I'd love to but I can't right now' is polite and leaves the door open."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 28,
+    "fields": {
+      "title": "How to Make Lemonade",
+      "description": "Learn to make fresh lemonade from scratch. Better than store-bought and easy to customize with different flavors.",
+      "category": 3,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 8,
+      "age_max": 25,
+      "duration": 10,
+      "coins": 30,
+      "theory_content": "<h2>🍋 How to Make Lemonade</h2><p>Fresh lemonade is easy to make and tastes much better than powder or store-bought. You only need 3 ingredients! Once you master the basic recipe, you can create endless variations.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: pitcher of fresh lemonade with lemons]\" alt=\"Fresh lemonade\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">Fresh lemonade = summer in a glass</p></div><hr><h3>🛒 Ingredients</h3><ul><li>4-6 fresh lemons (the more you use, the stronger the flavor)</li><li>1/2 to 3/4 cup sugar (adjust to taste)</li><li>4 cups cold water</li><li>Ice cubes for serving</li><li>Optional: mint leaves, berries, or other fruits</li></ul><hr><h3>🍳 Equipment</h3><ul><li>Citrus juicer (or squeeze by hand)</li><li>Pitcher</li><li>Knife and cutting board</li><li>Spoon for stirring</li><li>Measuring cup</li></ul><hr><h3>📋 Step-by-Step Instructions</h3><h4>Step 1: Roll Lemons</h4><p>Roll lemons on the counter with your palm, applying gentle pressure. This breaks down the inside and makes them easier to juice. You'll get 20-30% more juice this way!</p><h4>Step 2: Cut and Juice</h4><p>Cut lemons in half. Squeeze juice into a bowl or measuring cup. Remove seeds. Strain the juice if you don't like pulp.</p><h4>Step 3: Make Simple Syrup</h4><p>In a small pot, heat 1/2 cup water and sugar until sugar completely dissolves. This makes sweet syrup that mixes easily into cold lemonade. Let it cool.</p><h4>Step 4: Combine</h4><p>Pour lemon juice and cooled simple syrup into a pitcher. Add cold water and stir well.</p><h4>Step 5: Taste and Adjust</h4><p>Too sour? Add more sugar syrup. Too sweet? Add more lemon juice. Too strong? Add more water.</p><h4>Step 6: Serve Over Ice</h4><p>Add ice cubes, garnish with a lemon slice, and enjoy!</p><hr><h3>🍓 Variations</h3><ul><li><strong>Strawberry lemonade:</strong> Blend fresh strawberries with a little water and add to lemonade</li><li><strong>Raspberry lemonade:</strong> Muddle raspberries and strain into lemonade</li><li><strong>Mint lemonade:</strong> Add fresh mint leaves and let steep for 15 minutes</li><li><strong>Sparkling lemonade:</strong> Use sparkling water instead of still</li><li><strong>Honey lemonade:</strong> Replace sugar with honey (heat honey with water to dissolve)</li><li><strong>Lavender lemonade:</strong> Steep dried lavender with the simple syrup</li></ul><hr><h3>💡 Pro Tips</h3><ul><li>✅ Room temperature lemons yield more juice than cold ones</li><li>✅ Strain juice through a sieve if you don't like pulp</li><li>✅ Make extra simple syrup — it keeps in the fridge for weeks</li><li>✅ Freeze lemon juice in ice cube trays for later use</li><li>✅ Use a citrus juicer for maximum juice extraction</li></ul><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about making lemonade. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "What should you do before cutting lemons?", "options": ["Freeze them", "Roll them on the counter", "Heat them", "Peel them"], "correct": 1, "explanation": "Rolling lemons breaks down the inside and makes them easier to juice."},
+          {"text": "What is simple syrup?", "options": ["Sugar and water heated until dissolved", "Lemon juice only", "Water only", "Sugar only"], "correct": 0, "explanation": "Simple syrup is sugar dissolved in water — it mixes better than raw sugar."},
+          {"text": "What can you add to make strawberry lemonade?", "options": ["Orange juice", "Blended fresh strawberries", "Chocolate", "Milk"], "correct": 1, "explanation": "Blend fresh strawberries and add to lemonade."},
+          {"text": "What temperature lemons give more juice?", "options": ["Cold", "Room temperature", "Frozen", "Boiling"], "correct": 1, "explanation": "Room temperature lemons yield more juice than cold ones."},
+          {"text": "What's the basic ratio for lemonade?", "options": ["1 cup lemon juice, 1/2-3/4 cup sugar, 4 cups water", "Equal parts", "Mostly sugar", "Mostly water"], "correct": 0, "explanation": "Basic ratio is 1 cup lemon juice, 1/2-3/4 cup sugar, 4 cups water."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 29,
+    "fields": {
+      "title": "How to Check the Weather",
+      "description": "Learn to read weather forecasts, understand what the symbols mean, and plan your day accordingly.",
+      "category": 4,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 6,
+      "age_max": 25,
+      "duration": 10,
+      "coins": 30,
+      "theory_content": "<h2>🌤️ How to Check the Weather</h2><p>Knowing the weather helps you dress appropriately, plan activities, and stay safe. Weather apps and forecasts are easy to read once you understand the symbols.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: weather app on phone showing forecast]\" alt=\"Weather app\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">Weather apps make forecasting easy</p></div><hr><h3>☀️ Common Weather Symbols</h3><ul><li><strong>☀️ Sun:</strong> Clear skies, sunny — no rain expected</li><li><strong>⛅ Partly cloudy:</strong> Some clouds, some sun — nice day</li><li><strong>☁️ Cloudy:</strong> Overcast, little to no sun</li><li><strong>🌧️ Rain:</strong> Light to moderate rain — bring an umbrella</li><li><strong>⛈️ Thunderstorm:</strong> Rain with thunder and lightning — stay indoors</li><li><strong>🌨️ Snow:</strong> Snowfall — prepare for cold</li><li><strong>🌫️ Fog:</strong> Reduced visibility — be careful driving</li><li><strong>💨 Wind:</strong> Windy conditions — dress warmly</li></ul><hr><h3>🌡️ What the Numbers Mean</h3><ul><li><strong>High temperature:</strong> Warmest part of the day (usually afternoon)</li><li><strong>Low temperature:</strong> Coldest part of the day (usually early morning)</li><li><strong>Feels like:</strong> How temperature feels with wind and humidity</li><li><strong>UV index:</strong> 1-2 low, 3-5 moderate, 6-7 high, 8-10 very high, 11+ extreme — wear sunscreen</li><li><strong>Precipitation chance (%):</strong> Likelihood of rain or snow</li><li><strong>Humidity (%):</strong> How much moisture is in the air</li><li><strong>Wind speed (mph or km/h):</strong> How fast wind is blowing</li></ul><hr><h3>📱 Best Weather Apps</h3><ul><li><strong>Weather.gov:</strong> Free, accurate (US)</li><li><strong>AccuWeather:</strong> Minute-by-minute precipitation</li><li><strong>Weather Channel:</strong> Easy to use</li><li><strong>Carrot Weather:</strong> Fun, sarcastic forecasts</li><li><strong>Your phone's built-in app:</strong> Usually good enough</li></ul><hr><h3>💡 How to Use Weather Info</h3><ul><li>✅ Check the forecast in the morning and at night</li><li>✅ Look at the hourly forecast to avoid rain windows</li><li>✅ Check wind if you're biking or doing outdoor sports</li><li>✅ UV index high? Wear sunscreen and a hat</li><li>✅ Thunderstorms? Stay indoors and avoid electronics</li></ul><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about checking the weather. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "What does a sun symbol mean?", "options": ["Rain", "Clear skies, sunny", "Cloudy", "Snow"], "correct": 1, "explanation": "Sun symbol means clear skies and sunny weather."},
+          {"text": "What does 'precipitation chance 60%' mean?", "options": ["It will rain all day", "60% chance of rain at some point", "60% of the area will get rain", "It will rain for 60 minutes"], "correct": 1, "explanation": "Precipitation chance means the likelihood of rain at some point in that time period."},
+          {"text": "What UV index range is considered high?", "options": ["1-2", "3-5", "6-7", "8-10"], "correct": 2, "explanation": "UV index 6-7 is high — wear sunscreen and a hat."},
+          {"text": "What is 'feels like' temperature?", "options": ["The actual temperature", "How temperature feels with wind and humidity", "Tomorrow's forecast", "Last year's temperature"], "correct": 1, "explanation": "'Feels like' accounts for wind and humidity to tell you how it actually feels outside."},
+          {"text": "What should you check before outdoor activities?", "options": ["Only temperature", "Temperature, rain chance, wind, UV index", "Nothing", "Only rain chance"], "correct": 1, "explanation": "Check temperature, precipitation chance, wind, and UV index to plan properly."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 30,
+    "fields": {
+      "title": "How to Be a Good Listener",
+      "description": "Learn active listening skills that make people feel heard and valued. A skill that improves all relationships.",
+      "category": 1,
+      "lesson_type": "theory",
+      "difficulty": "intermediate",
+      "age_min": 10,
+      "age_max": 25,
+      "duration": 15,
+      "coins": 30,
+      "theory_content": "<h2>👂 How to Be a Good Listener</h2><p>Most people think they're good listeners, but true listening is a skill that takes practice. Good listeners make others feel heard, understood, and valued. This skill improves every relationship in your life.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: two people having conversation, one listening attentively]\" alt=\"Good listener\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">Listening is an act of respect</p></div><hr><h3>📝 The 5 Rules of Active Listening</h3><h4>1. Give Full Attention</h4><p>Put down your phone. Make eye contact. Face the person. Don't multitask. Your full attention shows respect and helps you understand better.</p><h4>2. Don't Interrupt</h4><p>Let them finish their thoughts. Wait for a pause before responding. Interrupting sends the message that what you have to say is more important.</p><h4>3. Show You're Listening</h4><p>Nod, say \"uh-huh,\" \"I see,\" or \"tell me more.\" Small signals matter and encourage the speaker to continue.</p><h4>4. Reflect Back What You Hear</h4><p>\"So what I'm hearing is...\" or \"It sounds like you're saying...\" This confirms your understanding and shows you're engaged.</p><h4>5. Ask Questions</h4><p>\"How did that make you feel?\" \"What happened next?\" Genuine questions show interest and help you understand more deeply.</p><hr><h3>🚫 What NOT to Do</h3><ul><li>❌ Looking at your phone while someone talks</li><li>❌ Interrupting with your own story</li><li>❌ Offering solutions when they just want to vent</li><li>❌ Judging or criticizing what they're saying</li><li>❌ Finishing their sentences</li><li>❌ One-upping (\"That's nothing, let me tell you what happened to me\")</li></ul><hr><h3>💡 The Difference Between Hearing and Listening</h3><ul><li><strong>Hearing:</strong> Sound enters your ears (passive — happens automatically)</li><li><strong>Listening:</strong> You actively understand and process the information (active — takes effort)</li></ul><hr><h3>🗣️ When Someone Just Needs to Vent</h3><p>Sometimes people don't want solutions — they just want to be heard. Ask this simple question:</p><p><strong>\"Do you want advice or do you just want me to listen?\"</strong></p><p>This simple question prevents frustration on both sides and ensures you're giving what they need.</p><hr><h3>🧠 Practice Active Listening Today</h3><ul><li>✅ Put phone away during conversations</li><li>✅ Make eye contact</li><li>✅ Don't interrupt for one full conversation</li><li>✅ Summarize what you heard at the end</li><li>✅ Ask one follow-up question</li></ul><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about active listening. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "What should you do while someone is talking?", "options": ["Look at your phone", "Make eye contact and face them", "Think about what you'll say next", "Interrupt with your own story"], "correct": 1, "explanation": "Give full attention — make eye contact and face the person."},
+          {"text": "What's the difference between hearing and listening?", "options": ["They're the same", "Hearing is passive, listening is active", "Listening is harder", "Hearing requires ears"], "correct": 1, "explanation": "Hearing is passive (sound enters ears). Listening is active (understanding)."},
+          {"text": "What should you ask if someone is venting?", "options": ["Why are you so upset?", "Do you want advice or just listening?", "When will you be done?", "Can we talk later?"], "correct": 1, "explanation": "Ask if they want advice or just someone to listen. This prevents frustration."},
+          {"text": "What is reflecting back?", "options": ["Looking in a mirror", "Summarizing what you heard: 'So what I'm hearing is...'", "Repeating every word", "Ignoring what they said"], "correct": 1, "explanation": "Reflecting back shows you're listening and helps clarify understanding."},
+          {"text": "Which is NOT good listening?", "options": ["Nodding and saying 'uh-huh'", "Interrupting with your own story", "Asking follow-up questions", "Putting away your phone"], "correct": 1, "explanation": "Interrupting with your own story takes attention away from the speaker."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 31,
+    "fields": {
+      "title": "How to Use an ATM",
+      "description": "Learn to withdraw cash, check balances, and deposit money safely at an ATM. A basic banking skill for financial independence.",
+      "category": 2,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 12,
+      "age_max": 25,
+      "duration": 15,
+      "coins": 30,
+      "theory_content": "<h2>🏧 How to Use an ATM</h2><p>ATMs let you access your bank account anytime, anywhere. Knowing how to use one safely and efficiently is an important financial skill that gives you independence and control over your money.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: person using ATM machine]\" alt=\"Using ATM\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">ATMs are convenient — but use them safely</p></div><hr><h3>⚠️ Safety First</h3><ul><li>✅ Use ATMs in well-lit, public areas — avoid isolated locations</li><li>✅ Cover the keypad when entering your PIN — even with your other hand</li><li>✅ Put money away immediately — don't count it at the machine</li><li>✅ Look for card skimmers — loose or odd-looking parts over the card slot</li><li>✅ Never accept help from strangers at an ATM</li><li>✅ If something seems wrong, cancel and leave immediately</li><li>✅ Check your balance regularly to detect unauthorized transactions</li></ul><hr><h3>📋 Step-by-Step: Withdraw Cash</h3><ol><li>Insert your debit card (chip first, facing the correct direction)</li><li>Enter your PIN (Personal Identification Number) — cover the keypad</li><li>Select \"Withdrawal\" on the screen</li><li>Choose which account (checking or savings)</li><li>Enter the amount (usually in multiples of $20)</li><li>Select \"Yes\" to any fees shown</li><li>Take your cash — count it quickly but discreetly</li><li>Take your receipt (if you want one for your records)</li><li>Take your card BACK FIRST, then take your cash</li></ol><hr><h3>📊 Other ATM Functions</h3><ul><li><strong>Check balance:</strong> See how much money is in your account</li><li><strong>Deposit cash or checks:</strong> Insert money into the deposit slot (follow on-screen instructions)</li><li><strong>Transfer money:</strong> Move money between checking and savings accounts</li><li><strong>Change PIN:</strong> Update your password if you think it's compromised</li></ul><hr><h3>💸 Understanding ATM Fees</h3><ul><li>Your bank's ATM: Usually free</li><li>Another bank's ATM: May charge $2-5 fee</li><li>Your bank may also charge a \"non-network\" fee on top of that</li><li>Withdraw larger amounts less often to save on fees</li><li>Look for ATMs with \"No Fee\" stickers or signs</li><li>Some stores offer cash back with purchases (often free)</li></ul><hr><h3>💡 Pro Tips</h3><ul><li>✅ Memorize your PIN — never write it on your card or phone</li><li>✅ Choose \"receipt\" to track your balance and keep records</li><li>✅ Take both your card AND cash before leaving the machine</li><li>✅ Shred old receipts with account numbers</li><li>✅ If the card gets stuck, call the bank's number on the machine immediately</li><li>✅ Set up account alerts to monitor withdrawals and deposits</li></ul><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about using an ATM. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "What should you do BEFORE using an ATM?", "options": ["Check your phone", "Look for card skimmers", "Count your money", "Call the bank"], "correct": 1, "explanation": "Always look for card skimmers (loose parts over the card slot)."},
+          {"text": "How should you protect your PIN?", "options": ["Write it on your card", "Cover the keypad while entering", "Tell a friend", "Use your birthday"], "correct": 1, "explanation": "Always cover the keypad with your hand while entering your PIN."},
+          {"text": "What should you take FIRST from the ATM?", "options": ["Cash", "Your card", "Receipt", "It doesn't matter"], "correct": 1, "explanation": "Always take your card FIRST, then your cash."},
+          {"text": "Why might an ATM charge a fee?", "options": ["It's your bank's ATM", "It's another bank's ATM", "It's daytime", "It's nighttime"], "correct": 1, "explanation": "Other banks' ATMs often charge fees. Your own bank's ATM is usually free."},
+          {"text": "Where should you use an ATM?", "options": ["In dark, empty areas", "In well-lit, public areas", "In parking garages", "Behind buildings"], "correct": 1, "explanation": "Use ATMs in well-lit, public areas for safety."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 32,
+    "fields": {
+      "title": "How to Make Pancakes",
+      "description": "Learn to make fluffy pancakes from scratch. A breakfast classic that's easy to master and customize.",
+      "category": 3,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 10,
+      "age_max": 25,
+      "duration": 20,
+      "coins": 30,
+      "theory_content": "<h2>🥞 How to Make Pancakes</h2><p>Homemade pancakes are easier than you think. With a few simple ingredients, you can make breakfast better than any box mix. Fluffy, golden, and delicious — pancakes are a breakfast classic that everyone loves.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: stack of pancakes with butter and syrup]\" alt=\"Pancakes\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">Fluffy, golden, delicious</p></div><hr><h3>🛒 Ingredients</h3><ul><li>1 cup all-purpose flour</li><li>2 tablespoons sugar</li><li>1 tablespoon baking powder</li><li>1/2 teaspoon salt</li><li>1 cup milk</li><li>1 large egg</li><li>2 tablespoons melted butter (or vegetable oil)</li><li>1 teaspoon vanilla extract (optional)</li></ul><hr><h3>🍳 Equipment</h3><ul><li>Large mixing bowl</li><li>Whisk or fork</li><li>Measuring cups and spoons</li><li>Frying pan or griddle</li><li>Spatula</li></ul><hr><h3>📋 Step-by-Step Instructions</h3><h4>Step 1: Mix Dry Ingredients</h4><p>In a large bowl, whisk together flour, sugar, baking powder, and salt. Make sure they're well combined.</p><h4>Step 2: Mix Wet Ingredients</h4><p>In a separate bowl, whisk milk, egg, melted butter, and vanilla until smooth.</p><h4>Step 3: Combine (Don't Overmix!)</h4><p>Pour the wet ingredients into the dry ingredients. Stir until JUST combined — some lumps are okay. Overmixing develops gluten and makes pancakes tough and rubbery.</p><h4>Step 4: Heat the Pan</h4><p>Heat a frying pan or griddle over medium-low heat. Add a little butter or oil and let it melt. The pan is ready when a drop of water sizzles on the surface.</p><h4>Step 5: Pour the Batter</h4><p>Pour 1/4 cup of batter for each pancake. Don't crowd the pan — leave space between pancakes. Cook until bubbles form on the surface and the edges look dry (about 2-3 minutes).</p><h4>Step 6: Flip</h4><p>Flip the pancake carefully with a spatula. Cook the other side for 1-2 minutes until golden brown.</p><h4>Step 7: Serve</h4><p>Stack pancakes on a plate. Add butter, drizzle with syrup, and enjoy immediately.</p><hr><h3>💡 Pro Tips</h3><ul><li>✅ Don't press down on pancakes while cooking — makes them flat</li><li>✅ Wipe the pan between batches to prevent burning</li><li>✅ Keep cooked pancakes warm in a 200°F oven</li><li>✅ Add chocolate chips, blueberries, or banana slices to the batter</li><li>✅ Let the batter rest for 5 minutes before cooking for fluffier pancakes</li><li>✅ Use buttermilk instead of regular milk for extra tangy flavor</li></ul><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about making pancakes. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "What happens if you overmix pancake batter?", "options": ["Fluffier pancakes", "Tough, rubbery pancakes", "Sweeter pancakes", "No difference"], "correct": 1, "explanation": "Overmixing develops gluten, making pancakes tough and rubbery."},
+          {"text": "When should you flip a pancake?", "options": ["Immediately after pouring", "When bubbles form on top and edges look dry", "When bottom is black", "After 5 minutes"], "correct": 1, "explanation": "Flip when bubbles form on top and edges look dry — about 2-3 minutes."},
+          {"text": "What heat should you use?", "options": ["High", "Medium-low", "No heat", "Maximum"], "correct": 1, "explanation": "Medium-low heat cooks pancakes evenly without burning."},
+          {"text": "What makes pancakes fluffy?", "options": ["Overmixing", "Baking powder and not overmixing", "More sugar", "Cold milk"], "correct": 1, "explanation": "Baking powder creates bubbles. Not overmixing keeps them light."},
+          {"text": "What can you add to pancake batter?", "options": ["Chocolate chips", "Blueberries", "Banana slices", "All of the above"], "correct": 3, "explanation": "Add any of these to the batter after mixing."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 33,
+    "fields": {
+      "title": "How to Jump Start a Car",
+      "description": "Learn to safely jump start a car with a dead battery using jumper cables. An essential driving skill that could save you from being stranded.",
+      "category": 4,
+      "lesson_type": "theory",
+      "difficulty": "intermediate",
+      "age_min": 16,
+      "age_max": 25,
+      "duration": 15,
+      "coins": 30,
+      "theory_content": "<h2>🚗 How to Jump Start a Car</h2><p>A dead battery is one of the most common car problems, especially in cold weather. Knowing how to jump start a car can save you from being stranded and waiting for help. Every driver should know this skill.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: jumper cables connected to car battery]\" alt=\"Jump starting car\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">Know the correct order — it matters!</p></div><hr><h3>⚠️ Safety First</h3><ul><li>✅ Wear safety glasses if available</li><li>✅ Make sure both cars are OFF before connecting cables</li><li>✅ Don't let cable ends touch each other — can cause sparks</li><li>✅ Don't jump a frozen battery — it can explode</li><li>✅ Check that both batteries are 12V (most cars are)</li><li>✅ Keep children and pets away</li></ul><hr><h3>📋 What You'll Need</h3><ul><li>Jumper cables (keep a set in your trunk at all times)</li><li>Another car with a working battery (or a portable jump starter)</li></ul><hr><h3>📝 Step-by-Step Instructions</h3><h4>Step 1: Position Cars</h4><p>Park the working car close enough to the dead car for the cables to reach, but make sure the cars are not touching. Turn both cars OFF.</p><h4>Step 2: Identify Positive and Negative</h4><p>Positive (+) is usually red and has a red cover. Negative (-) is usually black. Check your car manual if you're unsure.</p><h4>Step 3: Connect Cables IN THIS ORDER</h4><ol><li><strong>Red clamp to DEAD battery positive (+)</strong></li><li><strong>Red clamp to GOOD battery positive (+)</strong></li><li><strong>Black clamp to GOOD battery negative (-)</strong></li><li><strong>Black clamp to UNPAINTED METAL on the dead car</strong> — NOT the battery! Use a bolt, bracket, or the engine block.</li></ol><h4>Step 4: Start the Good Car</h4><p>Start the working car and let it run for 2-3 minutes to charge the dead battery.</p><h4>Step 5: Start the Dead Car</h4><p>Try starting the dead car. If it doesn't start, wait a few more minutes and try again. If it still doesn't start, the battery may need replacement.</p><h4>Step 6: Remove Cables IN REVERSE ORDER</h4><ol><li><strong>Black clamp from dead car's metal</strong></li><li><strong>Black clamp from good battery</strong></li><li><strong>Red clamp from good battery</strong></li><li><strong>Red clamp from dead battery</strong></li></ol><h4>Step 7: Drive</h4><p>Drive the jumped car for at least 20 minutes to recharge the battery. Avoid turning it off before then.</p><hr><h3>💡 Pro Tips</h3><ul><li>✅ Keep jumper cables in your trunk year-round</li><li>✅ If the car won't jump, the battery may need replacement</li><li>✅ Some cars have the battery in the trunk or under the back seat — check your manual</li><li>✅ Portable jump starters are great backups and don't require another car</li><li>✅ After jump starting, get the battery tested at an auto parts store</li></ul><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about jump starting a car. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "What is the FIRST cable you connect?", "options": ["Red to good battery", "Red to dead battery", "Black to good battery", "Black to dead metal"], "correct": 1, "explanation": "First, connect red clamp to DEAD battery positive (+)."},
+          {"text": "Where does the final black clamp go?", "options": ["Good battery negative", "Dead battery negative", "Unpainted metal on dead car", "Good car metal"], "correct": 2, "explanation": "The last black clamp connects to unpainted metal on the dead car — not the battery."},
+          {"text": "What happens if cables touch each other?", "options": ["Nothing", "Sparks or short circuit", "Car starts faster", "Battery charges"], "correct": 1, "explanation": "Don't let cable ends touch — they can spark and cause a short circuit."},
+          {"text": "How long should you drive after a jump start?", "options": ["5 minutes", "At least 20 minutes", "1 hour", "No need to drive"], "correct": 1, "explanation": "Drive at least 20 minutes to recharge the battery."},
+          {"text": "What should you NEVER jump start?", "options": ["A frozen battery", "A new car", "An old car", "A truck"], "correct": 0, "explanation": "Never jump a frozen battery — it can explode."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 34,
+    "fields": {
+      "title": "How to Boil Pasta",
+      "description": "Learn to cook pasta perfectly — not too hard, not too soft. A basic cooking skill for countless meals.",
+      "category": 3,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 8,
+      "age_max": 25,
+      "duration": 10,
+      "coins": 30,
+      "theory_content": "<h2>🍝 How to Boil Pasta</h2><p>Pasta seems simple, but there's a right way to do it. Perfect pasta is al dente — firm to the bite, not mushy. Mastering this basic skill opens up countless meal possibilities.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: pot of boiling pasta]\" alt=\"Boiling pasta\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">Perfect pasta starts with boiling water</p></div><hr><h3>🛒 What You'll Need</h3><ul><li>Pasta (spaghetti, penne, rotini, or any shape)</li><li>Large pot (at least 4-6 quarts)</li><li>Water</li><li>Salt (1-2 tablespoons)</li><li>Colander for draining</li></ul><hr><h3>📋 Step-by-Step Instructions</h3><h4>Step 1: Use a Large Pot</h4><p>Pasta needs room to move. Use a pot that holds at least 4-6 quarts of water. The more water, the better — it prevents sticking and allows even cooking.</p><h4>Step 2: Salt the Water</h4><p>Add 1-2 tablespoons of salt when the water starts to boil. This flavors the pasta from the inside. The water should taste like seawater.</p><h4>Step 3: Bring to a Rolling Boil</h4><p>Wait until the water is bubbling vigorously before adding the pasta. Adding pasta too early makes it sticky.</p><h4>Step 4: Add Pasta</h4><p>Add the pasta and stir immediately to prevent sticking. Stir occasionally during cooking to keep it from clumping.</p><h4>Step 5: Cook According to Package</h4><p>Check the package for the recommended cooking time (usually 8-12 minutes). Start checking 1-2 minutes early.</p><h4>Step 6: Taste Test</h4><p>Bite a piece of pasta. Perfect pasta is \"al dente\" — firm but cooked through. It should have a slight resistance when bitten.</p><h4>Step 7: Drain</h4><p>Pour the pasta into a colander. DON'T rinse — rinsing removes the starch that helps sauce stick to the pasta.</p><h4>Step 8: Sauce Immediately</h4><p>Add sauce right away so the pasta doesn't stick together. The hot pasta absorbs the sauce better when it's freshly drained.</p><hr><h3>💡 Pro Tips</h3><ul><li>✅ Save 1/2 cup of pasta water — the starchy water helps sauce thicken and stick</li><li>✅ Don't add oil to the water — it coats the pasta and prevents sauce from sticking</li><li>✅ 1 pound of pasta needs about 4 quarts of water</li><li>✅ Stir occasionally, especially during the first minute</li><li>✅ For perfectly cooked pasta, set a timer</li></ul><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about boiling pasta. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "When should you salt the pasta water?", "options": ["Before adding pasta, when water is boiling", "After adding pasta", "Never", "After draining"], "correct": 0, "explanation": "Salt water when it starts boiling, before adding pasta."},
+          {"text": "Why shouldn't you rinse cooked pasta?", "options": ["It gets cold", "Rinsing removes starch that helps sauce stick", "It wastes water", "It's fine to rinse"], "correct": 1, "explanation": "Starch on pasta helps sauce stick. Rinsing removes it."},
+          {"text": "What does 'al dente' mean?", "options": ["Overcooked and mushy", "Firm to the bite, not mushy", "Undercooked and hard", "Burnt"], "correct": 1, "explanation": "Al dente means firm to the bite — perfect pasta texture."},
+          {"text": "Why save pasta water?", "options": ["To drink", "To add starch to sauce", "To clean the pot", "To water plants"], "correct": 1, "explanation": "Starchy pasta water helps sauce thicken and stick to pasta."},
+          {"text": "Should you add oil to pasta water?", "options": ["Yes, prevents sticking", "No, prevents sauce from sticking", "Only for spaghetti", "Only for penne"], "correct": 1, "explanation": "Don't add oil — it coats pasta and prevents sauce from sticking."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 35,
+    "fields": {
+      "title": "How to Make a To-Do List",
+      "description": "Learn to create effective to-do lists that actually help you get things done, not just stress you out.",
+      "category": 1,
+      "lesson_type": "theory",
+      "difficulty": "beginner",
+      "age_min": 10,
+      "age_max": 25,
+      "duration": 10,
+      "coins": 30,
+      "theory_content": "<h2>📝 How to Make a To-Do List</h2><p>A good to-do list helps you remember tasks and feel accomplished. A bad to-do list is just a list of things stressing you out. Learn to create lists that actually work.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: person checking items off to-do list]\" alt=\"To-do list\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">Checking things off feels good</p></div><hr><h3>❌ Common To-Do List Mistakes</h3><ul><li>❌ Too many items — overwhelming and discouraging</li><li>❌ Vague tasks (\"work on project\" — what does that mean?)</li><li>❌ No priorities — everything seems urgent</li><li>❌ Never finishing — the list keeps growing</li><li>❌ No time estimates — tasks take longer than expected</li></ul><hr><h3>✅ The 3-List Method</h3><h4>List 1: Brain Dump</h4><p>Write down EVERYTHING you need to do. Don't organize yet. Just get it out of your head. This alone reduces anxiety.</p><h4>List 2: Today's Top 3</h4><p>Choose ONLY 3 tasks to complete today. These are your priorities. Everything else can wait. Focus on completing these three.</p><h4>List 3: Later</h4><p>All other tasks go here. You'll get to them another day. This prevents overwhelm by keeping your daily list manageable.</p><hr><h3>📝 How to Write Tasks (Be Specific)</h3><ul><li><strong>Vague:</strong> \"Study for test\"</li><li><strong>Specific:</strong> \"Review chapters 1-4 for 30 minutes\"</li><li><strong>Vague:</strong> \"Clean room\"</li><li><strong>Specific:</strong> \"Vacuum floor, make bed, and put away clothes\"</li></ul><hr><h3>⭐ Prioritize with ABC Method</h3><ul><li><strong>A tasks:</strong> Must do today (urgent and important)</li><li><strong>B tasks:</strong> Should do today (important but not urgent)</li><li><strong>C tasks:</strong> Could do today (nice to do)</li><li><strong>D tasks:</strong> Delegate (someone else can do)</li><li><strong>E tasks:</strong> Eliminate (not actually needed)</li></ul><hr><h3>💡 Pro Tips</h3><ul><li>✅ Make your list the night before — start the day focused</li><li>✅ Estimate time for each task — prevents overcommitting</li><li>✅ Break big tasks into smaller steps — makes them less intimidating</li><li>✅ Put easy tasks first — builds momentum</li><li>✅ Celebrate when you finish your Top 3 — reward yourself</li></ul><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about making to-do lists. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "How many tasks should be on your daily to-do list?", "options": ["As many as possible", "3 priority tasks", "20 tasks", "No limit"], "correct": 1, "explanation": "Focus on just 3 priority tasks per day to avoid overwhelm."},
+          {"text": "What's wrong with a vague task like 'study'?", "options": ["Nothing", "It's not specific — you don't know when you're done", "It's too easy", "It's too hard"], "correct": 1, "explanation": "Vague tasks are hard to complete. Be specific: 'Study chapter 4 for 30 minutes.'"},
+          {"text": "When should you make your to-do list?", "options": ["Morning of", "Night before", "Midday", "Never"], "correct": 1, "explanation": "Making your list the night before helps you start the day focused."},
+          {"text": "What is the first step in the 3-List Method?", "options": ["Choose top 3", "Brain dump everything", "Prioritize", "Delete tasks"], "correct": 1, "explanation": "First, do a brain dump — write down EVERYTHING you need to do."},
+          {"text": "What does 'time estimate' help with?", "options": ["Nothing", "Prevents overcommitting", "Makes tasks longer", "Adds stress"], "correct": 1, "explanation": "Estimating time helps you plan realistic days and prevents overcommitting."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 36,
+    "fields": {
+      "title": "How to Start a Small Business as a Teen",
+      "description": "Learn to turn your skills into money. From lawn mowing to freelancing — start your first business.",
+      "category": 2,
+      "lesson_type": "theory",
+      "difficulty": "advanced",
+      "age_min": 13,
+      "age_max": 25,
+      "duration": 25,
+      "coins": 30,
+      "theory_content": "<h2>💼 How to Start a Small Business as a Teen</h2><p>You don't need to be an adult to start a business. Many successful entrepreneurs started as teens. Learn how to turn your skills into real income and gain valuable experience.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: teenager running lemonade stand or small business]\" alt=\"Teen business\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">Your first business can start today</p></div><hr><h3>🧠 Step 1: Identify Your Skills</h3><p>What are you already good at? What do you enjoy doing? The best business combines skill with passion.</p><p><strong>Skills teens can monetize:</strong></p><ul><li>📱 Social media management</li><li>✍️ Writing or editing</li><li>🎨 Graphic design or digital art</li><li>💻 Basic coding or website building</li><li>📚 Tutoring younger students</li><li>🐕 Pet sitting or dog walking</li><li>🌿 Lawn mowing and yard work</li><li>🧹 Cleaning services</li><li>📸 Photography</li><li>🎥 Video editing</li></ul><hr><h3>💰 Step 2: Set Your Prices</h3><p>Don't undervalue yourself. Research what others charge in your area.</p><ul><li>Research competitors on Facebook, Nextdoor, or Craigslist</li><li>Start slightly lower to get first customers</li><li>Offer discounts for repeat business</li><li>Raise prices as you gain experience</li></ul><hr><h3>📢 Step 3: Find Customers</h3><p>You don't need a website. Start with what you have.</p><ul><li>Tell family and friends — ask them to spread the word</li><li>Post on local Facebook groups (with parent permission)</li><li>Make simple flyers for community bulletin boards</li><li>Create a free Google Voice number for business calls</li><li>Ask satisfied customers for referrals</li></ul><hr><h3>📋 Step 4: Track Everything</h3><p>Running a business means tracking money in and money out.</p><ul><li>💰 Income (what customers pay you)</li><li>💸 Expenses (supplies, gas, flyers)</li><li>⏰ Hours worked</li><li>👥 Customer names and contact info</li></ul><hr><h3>💡 Pro Tips</h3><ul><li>✅ Start small — one service, one customer at a time</li><li>✅ Be reliable — show up on time, do good work</li><li>✅ Over-communicate — confirm appointments, follow up</li><li>✅ Save half your earnings for taxes and future business</li><li>✅ Reinvest some money into better equipment</li><li>✅ Learn from mistakes — every business has them</li></ul><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about starting a small business. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "What is the first step in starting a small business?", "options": ["Buy equipment", "Identify your skills", "Register with government", "Make a website"], "correct": 1, "explanation": "First, identify what you're good at and what you enjoy doing."},
+          {"text": "How should you price your services as a beginner?", "options": ["Charge the highest price possible", "Research competitors and start slightly lower", "Work for free", "Charge double"], "correct": 1, "explanation": "Research what others charge and start slightly lower to attract first customers."},
+          {"text": "What's the best free marketing tool for a teen business?", "options": ["TV commercials", "Word of mouth and family/friends", "Billboards", "Radio ads"], "correct": 1, "explanation": "Word of mouth — tell family and friends, ask for referrals."},
+          {"text": "Why should you track your income and expenses?", "options": ["It's not important", "To know if you're profitable and for taxes", "To show off", "To waste time"], "correct": 1, "explanation": "Tracking helps you know if you're making money and prepares you for taxes."},
+          {"text": "What should you do with customer payments?", "options": ["Spend it all immediately", "Save half for taxes and reinvest some", "Hide it under your bed", "Give it away"], "correct": 1, "explanation": "Save half for taxes and future business expenses, reinvest some in better equipment."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 37,
+    "fields": {
+      "title": "How to Prepare for a Job Interview",
+      "description": "Learn to ace your first job interview. From what to wear to what to say — be confident and prepared.",
+      "category": 2,
+      "lesson_type": "theory",
+      "difficulty": "intermediate",
+      "age_min": 14,
+      "age_max": 25,
+      "duration": 20,
+      "coins": 30,
+      "theory_content": "<h2>💼 How to Prepare for a Job Interview</h2><p>Job interviews can be nerve-wracking, especially your first one. But preparation turns fear into confidence. Learn what employers look for and how to shine.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: teenager shaking hands with interviewer]\" alt=\"Job interview\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">Confidence comes from preparation</p></div><hr><h3>📝 Before the Interview</h3><ul><li>✅ Research the company — know what they do</li><li>✅ Review the job description — understand what they want</li><li>✅ Prepare answers to common questions</li><li>✅ Prepare 2-3 questions to ask THEM</li><li>✅ Lay out your clothes — clean, neat, appropriate</li><li>✅ Print extra copies of your resume</li><li>✅ Plan your route — know how to get there</li><li>✅ Get a good night's sleep</li></ul><hr><h3>👔 What to Wear</h3><p>Dress one step above the job's daily dress code.</p><ul><li><strong>Retail, restaurant, basic jobs:</strong> Clean, neat casual — no rips, no stains, no graphic t-shirts</li><li><strong>Office, bank, professional jobs:</strong> Button-up shirt, slacks, nice shoes</li><li><strong>What NOT to wear:</strong> Sweatpants, ripped jeans, dirty shoes, strong perfume/cologne, visible piercings (except small earrings)</li></ul><hr><h3>🗣️ Common Interview Questions</h3><p><strong>\"Tell me about yourself.\"</strong> Give a 1-2 minute summary: who you are, what you're interested in, why you're applying.</p><p><strong>\"Why do you want to work here?\"</strong> Show you've done research. Mention something specific about the company.</p><p><strong>\"What are your strengths?\"</strong> Pick 2-3 strengths relevant to the job. Give an example.</p><p><strong>\"What are your weaknesses?\"</strong> Be honest, but show you're working on it.</p><hr><h3>❓ Questions YOU Should Ask</h3><ul><li>\"What does a typical day look like?\"</li><li>\"What training do you provide?\"</li><li>\"What do you enjoy most about working here?\"</li><li>\"What are the next steps?\"</li></ul><hr><h3>💡 The Day Of: Do's and Don'ts</h3><ul><li>✅ Arrive 5-10 minutes early</li><li>✅ Turn off your phone</li><li>✅ Make eye contact</li><li>✅ Give a firm handshake</li><li>✅ Smile naturally</li><li>✅ Thank them at the end</li><li>❌ Chew gum</li><li>❌ Look at your phone</li><li>❌ Interrupt</li><li>❌ Lie — if you don't know something, say \"I don't know yet, but I'm eager to learn\"</li></ul><hr><h3>✉️ After the Interview</h3><p>Send a thank you email within 24 hours. Mention something specific from the conversation. Reiterate your interest in the job.</p><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about preparing for a job interview. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "How early should you arrive for an interview?", "options": ["30 minutes early", "5-10 minutes early", "Exactly on time", "15 minutes late"], "correct": 1, "explanation": "Arrive 5-10 minutes early — not too early, not late."},
+          {"text": "What should you do with your phone during an interview?", "options": ["Keep it on vibrate", "Check it occasionally", "Turn it completely OFF", "Leave it on the table"], "correct": 2, "explanation": "Turn your phone completely OFF — no distractions."},
+          {"text": "What should you do within 24 hours after an interview?", "options": ["Call them repeatedly", "Send a thank you email", "Show up unannounced", "Do nothing"], "correct": 1, "explanation": "Send a thank you email within 24 hours — mention something specific from the conversation."},
+          {"text": "What should you say if you don't know an answer?", "options": ["Make something up", "I don't know yet, but I'm eager to learn", "That's a stupid question", "Stay silent"], "correct": 1, "explanation": "Honesty is best: 'I don't know yet, but I'm eager to learn.'"},
+          {"text": "What's a good question to ask the interviewer?", "options": ["How much vacation time do I get?", "What do you enjoy most about working here?", "When can I leave early?", "Can I work from home?"], "correct": 1, "explanation": "Asking what they enjoy shows genuine interest in the company."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 38,
+    "fields": {
+      "title": "How to Write a Resume (No Experience)",
+      "description": "Learn to create a strong resume even if you've never had a paid job. Highlight your skills, school, and activities.",
+      "category": 2,
+      "lesson_type": "theory",
+      "difficulty": "intermediate",
+      "age_min": 14,
+      "age_max": 25,
+      "duration": 20,
+      "coins": 30,
+      "theory_content": "<h2>📄 How to Write a Resume (No Experience)</h2><p>Every first job requires a resume, but how do you write one without work experience? Focus on what you DO have — skills, school, volunteering, and activities.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: resume template on laptop screen]\" alt=\"Resume\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">You have more to offer than you think</p></div><hr><h3>📝 What to Include</h3><h4>1. Contact Information</h4><ul><li>Full name</li><li>Phone number (with voicemail)</li><li>Professional email address</li><li>City and state</li></ul><h4>2. Summary or Objective</h4><p>One sentence about who you are and what you're looking for. Example: \"Responsible high school student with strong communication skills seeking first job in retail.\"</p><h4>3. Education</h4><ul><li>School name and location</li><li>Expected graduation year</li><li>GPA (if 3.0 or higher)</li><li>Relevant classes</li></ul><h4>4. Skills</h4><p><strong>Hard skills:</strong> Microsoft Office, Google Docs, social media, foreign languages</p><p><strong>Soft skills:</strong> Communication, teamwork, problem-solving, time management, reliability</p><h4>5. Volunteer Experience</h4><p>Unpaid work still counts as experience! Include food bank helper, animal shelter volunteer, school event volunteer, tutoring.</p><h4>6. Activities and Leadership</h4><p>Sports teams, clubs, student government, music, arts, babysitting, pet sitting, lawn mowing.</p><hr><h3>📋 Sample Resume</h3><p><strong>Alex Johnson</strong><br>(555) 123-4567 | alex.johnson@email.com | Anytown, USA</p><p><strong>Objective:</strong> Dependable high school student seeking first job where I can use my communication and organizational skills.</p><p><strong>Education:</strong> Anytown High School | Expected graduation 2026 | GPA: 3.5</p><p><strong>Skills:</strong> Proficient in Google Docs, Bilingual (English/Spanish), Reliable and quick to learn</p><p><strong>Volunteer Experience:</strong> Food Bank of Anytown — Sort and organize donations, greet clients</p><p><strong>Activities:</strong> Yearbook Club, JV Soccer Team, Babysitting</p><hr><h3>💡 Resume Writing Tips</h3><ul><li>✅ Keep to ONE PAGE</li><li>✅ Use bullet points, not paragraphs</li><li>✅ Start each bullet with an action verb</li><li>✅ Be honest — don't lie</li><li>✅ Use a clean, simple font</li><li>✅ Save as PDF before sending</li><li>✅ Have someone proofread it</li></ul><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about writing a resume. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "What should you include on a resume if you have no paid work experience?", "options": ["Leave it blank", "Volunteering, skills, school, and activities", "Make up fake jobs", "Only put your name"], "correct": 1, "explanation": "Focus on volunteering, skills, education, and extracurricular activities."},
+          {"text": "How long should a teen resume be?", "options": ["3 pages", "1 page", "Half a page", "As long as needed"], "correct": 1, "explanation": "Keep your resume to ONE PAGE — employers scan quickly."},
+          {"text": "What's a professional email address format?", "options": ["partygirl123@email.com", "alex.johnson@email.com", "iloveshopping@email.com", "coolguy@email.com"], "correct": 1, "explanation": "Use firstname.lastname@email.com — keep it professional."},
+          {"text": "What should you do before sending your resume?", "options": ["Send immediately", "Have someone proofread it", "Add more colors", "Change the font every line"], "correct": 1, "explanation": "Have a parent or teacher review for errors before submitting."},
+          {"text": "What file format should you use when emailing your resume?", "options": [".docx", ".txt", ".pdf", ".jpg"], "correct": 2, "explanation": "PDF preserves formatting so it looks the same on any computer."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 39,
+    "fields": {
+      "title": "How to Understand Credit Scores",
+      "description": "Learn what credit scores are, why they matter, and how to build good credit as a young adult.",
+      "category": 2,
+      "lesson_type": "theory",
+      "difficulty": "advanced",
+      "age_min": 16,
+      "age_max": 25,
+      "duration": 20,
+      "coins": 30,
+      "theory_content": "<h2>📊 How to Understand Credit Scores</h2><p>A credit score is a number that tells lenders how trustworthy you are with borrowed money. It affects whether you can get a credit card, car loan, apartment, or even a job. Start learning now — even if you're under 18.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: credit score scale from 300 to 850]\" alt=\"Credit score scale\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">Higher score = better loan terms</p></div><hr><h3>🔢 What Is a Credit Score?</h3><p>A credit score is a number between 300 and 850. Higher is better.</p><ul><li><strong>800-850:</strong> Excellent</li><li><strong>740-799:</strong> Very Good</li><li><strong>670-739:</strong> Good</li><li><strong>580-669:</strong> Fair (may get approved but higher interest)</li><li><strong>300-579:</strong> Poor (may be denied credit)</li></ul><hr><h3>📝 What Factors Affect Your Credit Score</h3><ul><li><strong>Payment History (35%):</strong> Pay bills on time. Even one missed payment drops your score.</li><li><strong>Credit Utilization (30%):</strong> Keep below 30% of your limit.</li><li><strong>Length of Credit History (15%):</strong> Older accounts are better.</li><li><strong>Credit Mix (10%):</strong> Different types of credit help.</li><li><strong>New Credit Inquiries (10%):</strong> Applying for multiple cards hurts.</li></ul><hr><h3>👨‍👩‍👧 How Teens Can Build Credit</h3><ul><li>Become an authorized user on a parent's card</li><li>Student credit cards at 18</li><li>Secured credit cards (put down a deposit)</li><li>Credit builder loans</li></ul><hr><h3>✅ How to Build Good Credit</h3><ul><li>Pay every bill ON TIME</li><li>Keep credit utilization below 30%</li><li>Don't close old credit cards</li><li>Apply for new credit sparingly</li><li>Check your credit report free annually at AnnualCreditReport.com</li></ul><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about credit scores. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "What's the most important factor in your credit score?", "options": ["Credit utilization", "Payment history", "Length of credit history", "Credit mix"], "correct": 1, "explanation": "Payment history is 35% of your score — always pay on time."},
+          {"text": "What is a good credit utilization target?", "options": ["Below 90%", "Below 30%", "Below 70%", "0%"], "correct": 1, "explanation": "Keep your credit utilization below 30% — under 10% is even better."},
+          {"text": "Can a teenager under 18 build credit?", "options": ["No, impossible", "Yes, as an authorized user on parent's card", "Only after 21", "No, need a job first"], "correct": 1, "explanation": "Being an authorized user on a parent's credit card builds credit history."},
+          {"text": "Does checking your own credit score hurt it?", "options": ["Yes, every time", "No, it's a soft inquiry", "Only if you check too often", "Yes, once a month"], "correct": 1, "explanation": "Checking your own credit is a soft inquiry and does NOT hurt your score."},
+          {"text": "What happens if you miss a credit card payment?", "options": ["Nothing", "Your score drops significantly", "Your score increases", "Only affects interest rate"], "correct": 1, "explanation": "Late payments significantly hurt your credit score for up to 7 years."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
+    }
+  },
+  {
+    "model": "game.lesson",
+    "pk": 40,
+    "fields": {
+      "title": "How to Create a Study Schedule",
+      "description": "Learn to plan your study time effectively — reduce cramming, lower stress, and improve grades.",
+      "category": 1,
+      "lesson_type": "theory",
+      "difficulty": "intermediate",
+      "age_min": 11,
+      "age_max": 25,
+      "duration": 20,
+      "coins": 30,
+      "theory_content": "<h2>📚 How to Create a Study Schedule</h2><p>Cramming the night before doesn't work. A good study schedule spreads learning over time, reduces stress, and actually improves your grades. Learn to build one that works for YOU.</p><div style=\"text-align: center; margin: 20px 0;\"><img src=\"[IMAGE: student with color-coded study schedule calendar]\" alt=\"Study schedule\" style=\"max-width: 100%; border-radius: 12px;\"><p style=\"color: #7f8c8d; font-size: 12px;\">Plan your week before it starts</p></div><hr><h3>🧠 The Science of Studying</h3><ul><li><strong>Cramming:</strong> Information goes into short-term memory, forgotten quickly</li><li><strong>Distributed practice:</strong> Information moves to long-term memory, stays longer</li></ul><p>1 hour per day for 5 days is MUCH better than 5 hours in one day.</p><hr><h3>📝 Step 1: Gather Your Information</h3><ul><li>All upcoming tests and project due dates</li><li>Subjects you struggle with (need more time)</li><li>Subjects you're strong in (need less time)</li><li>Your commitments (sports, work, family, sleep)</li></ul><hr><h3>📊 Step 2: Use the 50/10 Rule</h3><ul><li>Study for 50 minutes (focused, no phone)</li><li>Take a 10-minute break (stand up, stretch, get water)</li><li>Repeat 2-3 times, then take a longer break</li></ul><hr><h3>📅 Step 3: Create Your Weekly Template</h3><p>Start with a blank weekly calendar. Block out fixed commitments first: school, sleep, meals, sports, work. Then add study blocks.</p><hr><h3>💡 Active Study Techniques</h3><ul><li><strong>Practice problems:</strong> Do math and science problems, don't just read solutions</li><li><strong>Flashcards:</strong> Use Anki or Quizlet</li><li><strong>Teach someone else:</strong> Explaining concepts reveals gaps in understanding</li><li><strong>Self-quizzing:</strong> Cover notes and try to recall information</li><li><strong>Mind maps:</strong> Draw connections between concepts</li></ul><hr><h3>🔄 Adjust as You Go</h3><p>After one week, evaluate: Did you finish what you planned? Were you too ambitious? What times of day are you most focused? Adjust accordingly.</p><hr><h3>🎓 Quiz Time!</h3><p>Test your knowledge about creating a study schedule. You need 70% to pass and earn your points!</p>",
+      "theory_images": [],
+      "image": null,
+      "video_url": "",
+      "interactive_content": {},
+      "quiz_questions": {
+        "questions": [
+          {"text": "What is the 'spacing effect'?", "options": ["Studying all night before a test", "Studying a little every day for better retention", "Studying in different locations", "Studying with music"], "correct": 1, "explanation": "Distributed practice (little every day) moves information to long-term memory."},
+          {"text": "What is the 50/10 rule?", "options": ["50 minutes study, 10 minutes break", "50 minutes break, 10 minutes study", "5 hours study, 10 minutes break", "50 minutes study, 10 hours break"], "correct": 0, "explanation": "Study for 50 minutes, then take a 10-minute break to recharge."},
+          {"text": "What should you block out FIRST when creating a study schedule?", "options": ["Study time", "Fixed commitments (school, sleep, meals)", "Free time", "Social media time"], "correct": 1, "explanation": "First, block out fixed commitments like school, sleep, and meals."},
+          {"text": "Which is more effective than passive reading?", "options": ["Rereading the chapter", "Highlighting everything", "Self-quizzing and practice problems", "Listening to recordings"], "correct": 2, "explanation": "Active techniques like self-quizzing and practice problems work much better."},
+          {"text": "How often should you review and adjust your study schedule?", "options": ["Never", "Once a semester", "Weekly", "Only when you fail a test"], "correct": 2, "explanation": "Review and adjust your schedule weekly to see what's working."}
+        ]
+      },
+      "passing_score": 70,
+      "max_attempts": 3,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2026-06-27T00:00:00Z",
+      "updated_at": "2026-06-27T00:00:00Z"
     }
   },
   {
@@ -3238,7 +3723,7 @@
       "rarity": "uncommon",
       "price": 20,
       "gender": "unisex",
-      "layer": 4,
+      "layer": 6,
       "primary_color": "#1a1a1a",
       "secondary_color": "#333333",
       "emoji": "🧢",
